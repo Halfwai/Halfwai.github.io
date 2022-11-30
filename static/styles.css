@@ -1,0 +1,132 @@
+.navbar {
+    background-color: black;
+}
+
+#navbar_logo {
+    width: 250px;
+}
+
+@media (min-width: 966px) {
+    .navbar-nav {
+        float:none;
+        margin:0 auto;
+        display: block;
+        text-align: center;
+    }
+    .navbar-nav > li {
+        display: inline-block;
+        float:none;
+        margin-right: 50px;
+    }
+}
+
+
+#menu_items {
+    display: flex;
+}
+
+#background {
+    background: url("images/desktopbackground.webp") no-repeat center center fixed;
+    background-size: cover;
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 95%;
+    z-index: -1;
+}
+
+#welcome_box {
+    height: 83vh;
+}
+
+#tagline {
+    font-size: 3em;
+}
+
+#down_icon {
+    padding-bottom: 25px;
+    color: black;
+}
+
+#down_icon:hover {
+    color: #0079C6;
+}
+
+#about_me {
+    background-color: white;
+    padding: 100px 0px 100px;
+}
+
+#profile_pic_box {
+    height: 100%;
+}
+
+#profile_pic {
+    width: 200px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+#projects {
+    margin-top: 100px;
+    background-color: white;
+    padding: 100px 0px 100px;
+}
+
+.project {
+    border: #0079C6 solid 1px;
+    padding: 20px;
+}
+
+.project_pic {
+    width: 100%;
+}
+
+
+@media (max-width: 576px){
+    h1 {
+        font-size: 4em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    #tagline {
+        font-size: 1em;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px){
+    h1 {
+        font-size: 6em;
+    }
+    h2 {
+        font-size: 3em;
+    }
+    #tagline {
+        font-size: 2em;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    h1 {
+        font-size: 7em;
+    }
+    h2 {
+        font-size: 4em;
+    }
+    #tagline {
+        font-size: 2.5em;
+    }
+}
+@media (min-width: 992px){
+    h1 {
+        font-size: 8em;
+    }
+    h2 {
+        font-size: 5em;
+    }
+    #tagline {
+        font-size: 3em;
+    }
+}
