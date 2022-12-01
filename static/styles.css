@@ -1,5 +1,12 @@
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
 .navbar {
     background-color: black;
+    min-height: 8vh;
+    scroll-snap-align: start;
 }
 
 #navbar_logo {
@@ -20,6 +27,22 @@
     }
 }
 
+.link {
+    font-family: 'Source Code Pro', serif;
+    font-size: 1.5em;
+    color: white;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #0079C6;
+}
+
 
 #menu_items {
     display: flex;
@@ -31,12 +54,24 @@
     position: fixed;
     display: flex;
     width: 100vw;
-    height: 95%;
+    height: 100vh;
     z-index: -1;
 }
 
 #welcome_box {
-    height: 83vh;
+    height: 82vh;
+}
+
+#intro {
+    width: 100%;
+    color:#0079C6;
+    font-family: 'Source Code Pro', serif;
+    margin: 0px;
+    font-size: 1em;
+}
+
+#name {
+    margin: 0px;
 }
 
 #tagline {
@@ -44,12 +79,22 @@
 }
 
 #down_icon {
-    padding-bottom: 25px;
+    height: 10vh;
     color: black;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
 }
 
 #down_icon:hover {
     color: #0079C6;
+}
+
+
+.section_box {
+    scroll-snap-align: start;
 }
 
 #about_me {
@@ -59,6 +104,7 @@
 
 #profile_pic_box {
     height: 100%;
+    margin-bottom: 50px;
 }
 
 #profile_pic {
@@ -70,8 +116,8 @@
     -o-border-radius: 100px;
 }
 
-#projects {
-    margin-top: 100px;
+#projects, #contact {
+    margin-top: 200px;
     background-color: white;
     padding: 100px 0px 100px;
 }
@@ -79,10 +125,53 @@
 .project {
     border: #0079C6 solid 1px;
     padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .project_pic {
     width: 100%;
+}
+
+footer {
+    margin-top: 200px;
+    height: 10vh;
+    background-color: black;
+    padding-top: 5vh;
+    color: white;
+    scroll-snap-align: start;
+}
+
+h5 {
+    font-family: 'Source Code Pro', serif;
+    font-size: 1em;
+}
+
+.icon_box {
+    height: 50px;
+}
+
+.icon {
+    color: black;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.icon:hover {
+    color: #0079C6;
+}
+
+@media (max-width: 355px){
+    #navbar_logo {
+        width: 180px;
+    }
 }
 
 

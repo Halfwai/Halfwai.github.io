@@ -9,11 +9,14 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro">
         <script src="static/scripts.js" defer></script>
         <link href="static/styles.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/8981bb8382.js" crossorigin="anonymous"></script>
+
     </head>
     <body>
+        <div id="background"></div>
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <div class="col-xs-2">
@@ -27,17 +30,17 @@
                 <div class="col-sm-8">
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
                           <ul class="navbar-nav mr-auto">
-                              <li class="nav-item active">
-                                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                              <li class="nav-item">
+                                  <a class="link" href="navbar">Home</a>
                               </li>
                               <li class="nav-item">
-                                  <a class="nav-link" href="#">About Me</a>
+                                  <a class="link" href="#about_me">About Me</a>
                               </li>
                               <li class="nav-item">
-                                  <a class="nav-link" href="#">Projects</a>
+                                  <a class="link" href="#projects">Projects</a>
                               </li>
                               <li class="nav-item">
-                                  <a class="nav-link" href="#">Contact Me</a>
+                                  <a class="link" href="#contact">Contact Me</a>
                                   </li>
                               </ul>
                       </div>
@@ -45,13 +48,13 @@
               </nav>
         </header>
         <main>
-            <div id="background"></div>
-            <section class="container">
+            <section class="container" class="section_box">
                 <div class="row">
                     <div class="col-sm-8">
-                        <div class="d-flex justify-content-center align-items-center flex-column" id="welcome_box">
-                            <h1 class="text-center">Wai Lee</h1>
-                            <p class="text-center" id="tagline">Computer Science Student and Aspiring Developer</p>
+                        <div class="d-flex justify-content-center flex-column" id="welcome_box">
+                            <p id="intro">Hi, my name is</p>
+                            <h1 id="name">Wai Lee</h1>
+                            <p id="tagline">Computer Science Student and Aspiring Developer</p>
                         </div>
                     </div>
                 </div>
@@ -63,7 +66,7 @@
                     </div>
                 </div>
             </section>
-            <section id="about_me">
+            <section id="about_me" class="section_box">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
@@ -79,30 +82,19 @@
                                 <img src="static/images/profilepic.webp" id="profile_pic" alt="Wai Lee">
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 d-flex align-items-center">
                             <p>
-                                I have been teaching English for the past 10 years in Taiwan. Currently, I am retraining and working towards a BSC in Computer Science 
+                                I'm from the UK, but I have been teaching English for the past 10 years in Taiwan. Currently, I am retraining and working towards a BSc in Computer Science 
                                 through the University of London (Goldsmiths). I am looking to build experience in the software sector and gain expertise through 
                                 positive work interactions.
                             </p>
-                            <p>
-                                I have completed two courses from Harvard University, CS50x, which gives a broad and in-depth look at computer science, and CS50w, 
-                                which is their course on web development using Javascript and Python. Through these, I have created a couple of projects to showcase 
-                                the skills that I have learnt, the second of which is live at www.footballgoalpool.com. It's a fantasy football game built from the 
-                                ground up in Django, that uses both Python on the backend and JavaScript on the front end.
-                            </p>
-                            <p>
-                                With over a decade of experience teaching, I have developed a range of soft skills that can translate seamlessly into different work 
-                                environments. I'm comfortable taking a leading role, but not scared to ask questions and learn from those more experienced than me. 
-                                Taking this step to transition at this stage in my career has been a challenge, but it is a challenge that I am relishing. I have the 
-                                enthusiasm to learn and prove myself in an exciting new industry.
-                            </p>
                         </div>
                     </div>
+                    <br>
                 </div>
             </section>
-            <section id="projects">
-                <div class="container px-4">
+            <section id="projects" class="section_box">
+                <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="d-flex justify-content-center align-items-center flex-column">
@@ -110,6 +102,7 @@
                             </div>
                         </div>
                     </div>
+                    <br>
                     <div class="row">
                         <div class="col-md-4">
                             <div class="d-flex justify-content-center align-items-center flex-column project">
@@ -117,7 +110,7 @@
                                 <h3>Football Goal Pool</h3>
                                 <p>
                                     Fantasy football web app created from the ground up in Django. Uses Python and SQLite on the backend, and JavaScript, HTML and CSS on the front end. 
-                                    Makes API calls to football.api-sports.io to keep the database updated. Live version can currently be found <a href="www.footballgoalpool.com">here</a>.
+                                    Makes API calls to football.api-sports.io to keep the database updated. Live version can currently be found <a href="https://www.footballgoalpool.com" target="_blank">here</a>.
                                 </p>
                             </div>
                         </div>
@@ -126,8 +119,8 @@
                                 <img src="static/images/forest_knight.webp" alt="" class="project_pic">
                                 <h3>Forest Knight</h3>
                                 <p>
-                                    Platformer game demo built using JavaScript and the P5.js library. Movement and gravity logic personally devised and created, as well as concept and level design.
-                                    Game can currently be found <a href="http://forestknight.great-site.net/">here.</a>
+                                    Platformer game demo built using JavaScript and the P5.js library. Original concept and level design, as well as game music all personally devised and
+                                    implemented. I also created the jumping and gravity logic, the game can currently be found <a href="http://forestknight.great-site.net/" target="_blank">here.</a>
                                 </p>
                             </div>
                         </div>
@@ -135,11 +128,73 @@
                             <div class="d-flex justify-content-center align-items-center flex-column project">
                                 <img src="static/images/babylove.webp" alt="" class="project_pic">
                                 <h3>BabyLove</h3>
+                                <p>
+                                    Baby activity tracking app built in Flask. Can be used to track baby metrics such as sleeping and feeding time. Uses Bootstrap and JavaScript extensively through 
+                                    the front end design and SQLite and Python in the back end. Currently not live but the code can be found on my <a href="https://github.com/Halfwai/Babylove" target="_blank">GitHub.</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="section_box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="d-flex justify-content-center align-items-center flex-column">
+                                <h2 class="text-center">Contact Me</h2>
+                                <br>
+                                <p>I'm currently looking for interning and freelancing opportunities. If you would like to get in touch I'm available through the following channels:</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="d-flex justify-content-center align-items-center flex-column">
+                                <h3>Email</h3>
+                                <div class="icon_box">
+                                    <a href = "mailto: waisanpeterlee@gmail.com">
+                                        <i class="fa-sharp fa-solid fa-envelope fa-4x icon"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="d-flex justify-content-center align-items-center flex-column">
+                                <h3>LinkedIn</h3>
+                                <div class="icon_box">
+                                    <a href="https://www.linkedin.com/in/wai-lee/">
+                                        <i class="fa-brands fa-linkedin fa-4x icon"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="d-flex justify-content-center align-items-center flex-column">
+                                <h3>GitHub</h3>
+                                <div class="icon_box">
+                                    <a href="https://github.com/Halfwai">
+                                        <i class="fa-brands fa-github fa-4x icon"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
         </main>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="d-flex justify-content-center align-items-center flex-column">
+                            <h5 class="text-center">Designed & Built by ME</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
