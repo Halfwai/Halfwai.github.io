@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Pangolin Fanzine - News</title>
+        <!-- meta objects added to improve accessability, veiwport added for responsiv design and charset set -->
+        <meta name="description" content="A fanzine website for the Taipei-based Punk Rock band, Pangolin">
+        <meta name="author" content="Wai Lee">
+        <meta name="keywords" content="punk, band, taipei band, taiwan band, rock, ska, ska-punk, music, punk rock, fanzine, pangolin band, pangolin fanzine">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">      
+        <meta charset="UTF-8">
+        <!-- Add fonts from Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <!-- Add external stylesheet -->
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        <!-- Favicon added -->
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+        <!-- link fontawesome to add social media icons -->
+        <script src="https://kit.fontawesome.com/8981bb8382.js" crossorigin="anonymous"></script>
+        <!-- Add Handlebars.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+        <!-- add external commom javascript file -->
+        <script src="scripts/common.js" defer></script>
+    </head>
+    <body>
+        <!-- Opens up handlebars template and fills the data from the common.js folder -->
+        <script type="text/x-handlebars-template" id="headertemplate">
+            <!-- Header including a logo for the band and menu items that redirect to the five pages within the site. These can be edited in common.js  -->
+            <div id="mainmenucontainer">
+                <div id="logobox">
+                    <h1>
+                        <img src="{{ logo.src }}" alt="{{ logo.alt }}" id="logo">
+                    </h1>
+                </div>
+                <!-- navbar menu items -->            
+                <nav id="menuitems">
+                    {{#each links}}
+                    <a href="{{ this.href }}" class="menuitem">{{ this.name }}</a>
+                    {{/each}}
+                    <i class="fa-solid fa-bars fa-2xl" id="hamburgericon"></i>
+                    <i class="fa-solid fa-x fa-2xl" id="closeicon"></i>
+                </nav> 
+            </div>
+            <nav id="hamburgermenu">
+                {{#each links}}
+                <a href="{{ this.href }}" class="hamburgerlink">{{ this.name }}</a>
+                {{/each}}
+            </nav>
+        </script>
+        <!-- Output from handlebars.js template -->
+        <header id="headeroutput">
+        </header>
+
+        <!-- font size toggle button -->
+        <aside id="toggleboxcontainer">
+            <div id="togglebox">
+            <i class="fa-solid fa-text-height fa-2xl" id="togglefontsize"></i>
+            </div>
+            <div id="toggleboxtext">
+                <span>Click to toggle text size</span>                
+            </div>
+        </aside>
+
+        <main>
+            <!-- Main new section at the top of page -->
+            <div id="newspagecontainer">
+                <section>
+                    <h2>Main Story</h2>
+                    <div class="contentbox" id="canadaDay">
+                        <article  id="newsmainstorycontainer">   
+                            <div id="mainstorytext">
+                                <h3 class="newsheading">Pangolin tear up Canada Day Celebrations.</h3>
+                                <h4>
+                                    <i class="fa-solid fa-pen"></i>Wai Lee
+                                </h4>
+                                <h5><i class="fa-solid fa-calendar-days"></i> July 20th 2022</h5>
+                                <p>As a afternoon summer storm hits Taipei's Yuanshan district, the members of Pangolin muse on how it will affect their coming show. "Looks like 
+                                    it's calming down, probably the beginning of the end", states Mark Darvill hopefully. Unfortunately these predictions turn out to be false, and as the 
+                                    rain falls Pangolin play their unique blend of ska punk rock and roll to growing numbers of watchers, some huddled under umbrellas, while the more adventurous
+                                     give up and dance in the rain. As a band made up of three part Brits, and one part American, Pangolin play a set spiced with covers of "Oh Canada", and "
+                                     Everybody wants to rule the world", as well as many Pangolin originals. Later, one of the venders at a stall selling Canadian favorite Poutine will remark, 
+                                     "This Pangolin band are actually pretty good".  
+                                </p>  
+                            </div>
+                            <div id="mainstorypicturecontainer">
+                                <figure class="centredbox">
+                                    <img src="images/Canadaday.jpg" alt="Pangolin on stage playing at Taipei Canada Day" id="mainstoryimage">
+                                </figure>  
+                            </div>                                  
+                        </article>
+                    </div>
+                </section>
+                <!-- Section containing all other news pieces, two news articles a row -->
+                <section>
+                    <h2>Other News</h2>
+                    <div class="row">
+                        <article class="othernewsbox contentbox" id="goldSeal">
+                            <div class="othernewsimagecontainer">
+                                <figure>
+                                    <img src="images/pangolingoldseal.jpg" alt="Gig poster for Pangolin and Gold Seal featuring pictures of both bands" class="recentnewsimage">
+                                </figure>
+                            </div>
+                            <div class="othernewstext">
+                                <h3 class="newsheading">Pangolin Play at Bobwundaye with Gold Seal</h3>
+                                <h4>
+                                    <i class="fa-solid fa-pen"></i>Wai Lee
+                                </h4>
+                                <h5><i class="fa-solid fa-calendar-days"></i> July 5th 2022</h5>
+                                <p>Pangolin will be playing a double header with classic rock band Gold Seal on Saturday July 6th 2022. Tickets are 300nt on the 
+                                    door and come with a free drink. So come on down, and bring your significant other for a night of hard rocking, hard dancing, 
+                                    hot and sweaty fun for all the family.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="othernewsbox contentbox" id="studio">
+                            <div class="othernewsimagecontainer">
+                                <figure>
+                                    <img src="images/pangolinstudio.jpg" alt="Logo for Pangolin" class="recentnewsimage">
+                                </figure>
+                            </div>
+                            <div class="recentnewstext">
+                                <h3 class="newsheading">Pangolin hit the studio to record inagural first album</h3>
+                                <h4>
+                                    <i class="fa-solid fa-pen"></i>Wai Lee
+                                </h4>
+                                <h5><i class="fa-solid fa-calendar-days"></i> June 21th 2022</h5>
+                                <p>Pangolin have been in the studio this week getting to work on their first studio album. As yet unnamed, the album will come supplied with ice packs
+                                    to stop your face from being melted off. Or you will probably be able to listen on Spotify at your own risk. No release date has yet been announced,
+                                    so keep your eyes, and ears peeled for more news in the future.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="row">
+                        <article class="othernewsbox contentbox" id="decaders">
+                            <div class="othernewsimagecontainer">
+                                <figure>
+                                    <img src="images/pangolindecaders.jpg" alt="Gig poster for Pangolin and The Decaders featuring the cartoon image of a man in a surgical mask" class="recentnewsimage">
+                                </figure>
+                            </div>
+                            <div class="recentnewstext">
+                                <h3 class="newsheading">Pangolin and The Decaders Taipei show this Saturday!</h3>
+                                <h4>
+                                    <i class="fa-solid fa-pen"></i>Wai Lee
+                                </h4>
+                                <h5><i class="fa-solid fa-calendar-days"></i> May 15th 2022</h5>
+                                <p>Pangolin will be playing this weekend with The Decaders in what is sure to be a fun and fancy evening of punk rock. At Bobwundaye, and in memory of 
+                                    the pandemic, tickets are free, so that means that everyone is on the guest list! Come down and have a great time, just don't forget your surgical mask.
+                                    Current regulations state that people performing exercise are expemt from indoor mask rules, so feel free to show us your sexy faces, provided you're rocking
+                                    hard enough to break a sweat!
+                                </p>
+                            </div>
+                        </article>
+                        <article class="othernewsbox contentbox" id="beiCity">
+                            <div class="othernewsimagecontainer">
+                                <figure>
+                                    <img src="images/beicity.jpg" alt="Gig poster for Bei City Rock Festival showing an image of Pangolin" class="recentnewsimage">
+                                </figure>
+                            </div>
+                            <div class="recentnewstext">
+                                <h3 class="newsheading">Bei City Rock CANCELLED</h3>
+                                <h4>
+                                    <i class="fa-solid fa-pen"></i>Wai Lee
+                                </h4>
+                                <h5><i class="fa-solid fa-calendar-days"></i> April 25th 2022</h5>
+                                <p>We regret to inform you that the coming rock fest that is Bei City Rock has been cancelled due to Conronavirus. Unfortunatly Covid has struck again, and 
+                                    the organizers have been forced to call off what was sure to have been an awesome evening of rock and roll. Please get in touch with the venue (Triangle) about
+                                    refunds, and we hope to be able to rock for you again some time in the near future.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Sets up handlebars template for footer -->
+        <script type="text/x-handlebars-template" id="footertemplate">
+            <div id="footercontentcontainer">
+                <!-- Three link containers to make three columns of links -->
+                <div class="footerlinkscontainer">
+                    <!-- links to other pages on site -->
+                    <h3>Site links</h3>
+                    {{#each links}}
+                    <a href="{{ this.href }}" class="footer-link">{{ this.name }}</a>
+                    {{/each}}
+                </div>       
+                <div class="footerlinkscontainer">
+                    <!-- Language links -->
+                    <h3>Language</h3>
+                    {{#each languages}}
+                    <a href="#" class="footer-link">{{ this }}</a>
+                    {{/each}}
+                </div>                    
+            </div>
+            <!-- legal & social media links placed in a container for layout purposes -->
+            <div id="socialmedialinkscontainer">
+                {{#each legalLinks}}                   
+                <a href="{{ this.href }}" class="legallink">{{ this.name }}</a>
+                {{/each}}
+                {{#each socialMediaIcons}}
+                <!-- aria-label added for screen readers -->
+                <a href="{{ this.href }}" class="{{ this.icon }} socialmedialink" aria-label="{{ this.label }}"></a>
+                {{/each}}
+            </div> 
+        </script>
+
+        <!-- filled in handlebars template output here -->
+        <footer id="footeroutput">         
+
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,822 @@
+/* This tag is placed on the body and taken away after everything loads up. It makes sure that animation transition effects do not inturupt the page loading */
+.preload * {
+    transition: none !important;
+}
+
+
+/* global element css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E9E9E9;
+}
+
+/* flexboxes used throughout the site for structure */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Heading styling */
+h2 {
+    font-size: 30px; 
+    line-height: 1.5;
+    margin: 0 0 10px; 
+    font-weight: bold;
+}
+
+h3 {
+    margin: 0px;
+    font-size: 18px;
+}
+
+h4 {
+    margin: 0px;
+    font-size: 16px;
+}
+
+h5 {
+    margin: 0px;
+    font-size: 12px;
+}
+
+/* figure styling defaulted to no padding or margins so that each class and id can be individually placed */
+figure {
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* global class CSS */
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+/* The majority of content on the index and news pages is placed in a .contentbox class as default. Additional styling is then applied where needed */
+.contentbox {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 10px;
+    padding: 30px;
+    border: #BD7070 solid 2px;
+    box-sizing: border-box;
+    box-shadow: 0 3px 5px 0 #ccc;
+    transition: 1s;
+}
+
+/* All button classes whithin the site have consistant styline */
+.button {
+    width: fit-content;
+    border: black solid 3px;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+
+/* When tabbed onto a button the button changes colour to indicate that it is focues on, helps with accessibility */
+.button:focus {
+    background-color: #BD7070;
+}
+
+.centredbox {
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+}
+
+/* header CSS is applied to each page */
+header {
+    width: 100%;
+    box-shadow: 0 3px 5px 0 #ccc;
+}
+
+#logobox{
+    margin: 0px;
+}
+
+#logobox:hover {
+    cursor: pointer;
+}
+
+#logo {
+    width: 300px;
+    padding-left: 0px;
+}
+
+#mainmenucontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+}
+
+#headeroutput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+
+/* menu item styling */
+a.menuitem {
+    color: white;
+    text-decoration: none;
+}
+#menuitems {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-area: menu;
+    font-weight: bold;
+    text-decoration: none;
+    width: 100%;
+    margin-right: 80px;
+}
+.menuitem {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+    margin: 5px
+}
+
+.menuitem:hover, .hamburgerlink:hover {
+    color: #BD7070;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+/* responsive header CSS for hamburger menu */
+#hamburgericon, #closeicon {
+    color: white;
+    display: none;
+}
+
+#hamburgermenu {
+    background-color: black;
+    color: white;
+    display: none;
+    flex-direction: column;
+}
+
+.hamburgerlink {
+    font-size: large;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#hamburgericon:hover {
+    cursor: pointer;
+}
+
+/* Responsive header CSS to make changes when using a smaller screen size */
+@media (max-width: 780px) {
+    #hamburgericon {
+        display: block;
+    }
+    .menuitem {
+        display: none;
+    }
+    #mainmenucontainer {
+        align-items: unset;
+    }
+    #menuitems {
+        justify-content: flex-end;
+    }
+    nav {
+        align-items: center;
+    }
+}
+
+/* Header CSS end */
+
+/* Accessibility button styling for button to increase the text size.  */
+#togglebox {
+    position: fixed;
+    left: 10px;
+    top: 180px;
+    border: solid black 4px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px #bd7070;
+    z-index: 1;
+}
+
+#togglebox:active {
+    left: 11px;
+    top: 181px;
+    box-shadow: 1px 1px #bd7070;
+}
+
+#toggleboxtext {
+    position: fixed;
+    left: 80px;
+    border: solid black 1px;
+    top: 190px;
+    border-radius: 5px;
+    transition: 1s;
+    display: none;
+    padding: 3px;
+    background-color: black;
+    z-index: 1;
+}
+
+#toggleboxtext span {
+    color: white;
+}
+
+#toggleboxcontainer:hover {
+    cursor: pointer; 
+}
+
+#toggleboxcontainer:hover #toggleboxtext{
+    display: block;   
+}
+
+/* Accessibility button styling end */
+
+/* Home page dedicated CSS for index.html */
+
+/* Image carousel styling. Please see index.js for details  */
+#imagecarousel{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 3px 5px 0 #ccc;
+    height: 0px;
+}
+
+.slide {
+    width: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.carouselimage {
+    width: 100%;
+    transition: all 1s;
+}
+
+/* carousel buttons flank the image and will change colour when hovered over or focused on */
+.carouselbtn {
+    position: absolute;
+    width: 2%;
+    height: 100%;
+    padding: 5px;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+}
+  
+.carouselbtn:hover {
+cursor: pointer;
+}
+
+.carouselbtn:focus {
+    background-color: #BD7070;
+}
+
+#btnprev {    
+left: 23%;
+}
+
+#btnnext {
+right: 23%;
+}
+
+/* Main index page styling */
+#mainpagecontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+/* Page is broken up into 2 columns, on the left and right */
+#mainpageleftcolumn {
+    width: 100%;
+    margin: 0px 30px 30px 0px;
+}
+
+#mainpagerightcolumn {
+    width: 100%;
+}
+
+#topstoryimage {
+    width: 100%;
+}
+
+.recentnewsbox {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+.recentnewsimagecontainer {
+    max-width: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.recentnewsimage {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.newstext {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+/* Honepage responsiveness CSS */
+
+/* Some animations are only applied when the screen is large enough */
+@media (min-width: 780px){
+    #btnnext:hover {
+        width: 3%;
+        right: 22%;
+        background-color:  transparent;
+    }
+    #btnprev:hover {
+        width: 3%;
+        left: 22%;
+        background-color:  transparent;
+      }
+    .carouselbtn {
+        transition: 2s;
+    }
+}
+
+/* Responsiveness changes when the page shrinks under a 780px  */
+@media (max-width: 780px) {
+    .slide {
+        width: 85%;
+    }
+    .carouselbtn {
+        width: 5%;
+    }
+    #btnprev {    
+        left: 0%;
+        transition: 0s;
+        width: 7.5%;
+    }    
+    #btnnext {    
+        right: 0%;
+        transition: 0s;
+        width: 7.5%;
+    }
+    #mainpagecontent {
+        flex-direction: column;
+        align-items: center;
+    }
+    #mainpageleftcolumn {
+        width: 100%;
+        margin-right: 0px;
+    }
+    #mainpagerightcolumn {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .recentnewsbox {
+        flex-direction: column;
+        padding: 30px;
+    }     
+    .recentnewsimagecontainer {
+        width: 80%;
+    }
+}
+/* Homepage CSS end */
+
+/* News page dedicated CSS for news.html */
+
+#newspagecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+#newsmainstorycontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#mainstorytext {
+    width: 50%;
+}
+
+#mainstorypicturecontainer {
+    max-width: 60%;
+    padding-left: 20px;
+}
+
+#mainstoryimage {
+    max-width: 100%;
+}
+
+.othernewsbox {
+    align-items: center;
+    width: 48%;
+    padding: 10px;
+    min-height: 500px;
+    height: fit-content;
+    justify-content: space-evenly;
+}
+
+.newsheading {
+    margin: 0px;
+}
+
+.othernewsimagecontainer {
+    width: 60%;
+}
+
+/* News page responsive CSS for when page width is under 780px  */
+@media (max-width: 780px) {
+    #newsmainstorycontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #mainstorytext {
+        width: 100%;
+    }
+    #mainstorypicturecontainer {
+        max-width: 100%;
+        padding-left: 0px;
+    }
+    .row {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .othernewsbox {
+        align-items: center;
+        width: 100%;
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+}
+/* News page CSS end */
+
+/* About page dedicated CSS for about.html */
+
+#aboutpangolin {
+    max-width: 1200px;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutimage {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.aboutimage:hover, #abouttopimage:hover {
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+.aboutimagecaption {
+    margin: 2px;
+    font-style: italic;
+}
+
+.aboutfigbox {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abouttext {
+    word-spacing: 5px;
+    margin: 0px 30px 0px;
+    line-height: 3;
+}
+
+/* about page responsive CSS  for when width is under 780px */
+
+@media (max-width: 780px) {
+    .aboutfigbox {
+        margin: 0px;
+    }
+    .abouttext {
+        word-spacing: normal;
+        margin: 0;
+        line-height: normal;
+    }
+}
+/* About page CSS end */
+
+/* Contact page CSS for contact.html */
+
+#contactuscontainer {
+    max-width: 1200px;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Form is laid over an image for athetic purposes */
+
+#contactformcontainer {
+    padding: 30px;
+    width: 90%;
+}
+
+#contactform {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 500px;
+}
+
+#contactimage {
+    height: 600px;
+    width: 100%;
+}
+
+.inputfield {
+    width: 100%;
+    margin: 10px;
+    border-radius: 100px;
+    padding: 10px;
+    border: black solid 3px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+#commentbox {
+    width: 100%;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: black solid 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* contact page responsive CSS for when width is below 780px */
+@media (max-width: 780px) {
+    #contactuscontainer {
+        padding: 10px;
+    }
+    #contactformcontainer {
+        padding: 0px;
+        width: 100%;
+    }
+    #contactform {
+        padding: 0px;
+        width: 93%;
+    }
+    .inputfield {
+        width: auto;
+    }
+    #commentbox {
+        width: auto;
+    }
+}
+/* contact page end */
+
+/* Media page CSS */
+
+#bigpiccontainer {
+    position: fixed;
+    display: none;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+    z-index: 1;
+}
+
+.mediacontainer {
+    max-width: 1200px;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#videocontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#videos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* video width 49% to make a space between them so that they do not need individual div containers to keep them symetrical */
+#videos .video {
+    width: 49%;
+}
+
+#imagecontainer {
+    max-width: 1200px;
+    text-align: center;
+    background-color: white;
+}
+
+/* width allows pictures to stack 4 accross on large screens */
+.gallerypic {
+    width: 20%;
+    box-sizing: border-box;
+    margin: 5px;
+    transition: 1s;
+}
+
+.gallerypic:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.bigpic {
+    width: 100%;
+}
+
+#closepic {
+    color: white;
+    position: absolute;
+    left: 95%;
+    top: 5%;
+}
+
+#closepic:hover {
+    cursor: pointer;
+}
+
+/* media page responsive CSS when width under 780px */
+@media (max-width: 780px) {
+    #videos {
+        flex-direction: column;
+    }
+    #videos .video {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .gallerypic {
+        width: 40%;
+    }
+    #bigpiccontainer {
+        width: 95%;
+    }
+    #closepic {
+        left: 92%;
+    }
+}
+
+
+/* Footer positioning flexboxes used to space things properly*/
+#footeroutput {
+    display: flex;
+    justify-content: space-around;
+}
+footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#footercontentcontainer {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    flex-direction: row;
+    border-bottom: #BD7070 solid 4px;
+}
+.footerlinkscontainer {
+    display: flex;
+    flex-direction: column;
+}
+#socialmedialinkscontainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer h3 {
+    color: white;
+}
+
+/* footer link styling */
+footer a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+footer a:hover {
+    color: #BD7070;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+/* linebreak styling */
+hr {
+    border: 0;
+    width: 94%;               
+    background-color:#BD7070;
+    height: 4px;
+}
+
+/* social media and legal link styling */
+.socialmedialink {
+    padding: 10px;
+}
+
+.legallink {
+    padding: 10px;
+}
+
+/* address styling */
+address {
+    padding: 10px;
+}
+
+/* footer CSS end */
+
+/* Global responsive CSS for whole page. Placed at end of CSS file so should run with no issues */
+/* Some animations only apply on a large screen */
+@media (min-width: 780px){
+    .contentbox:hover {
+        transform: scale(1.03);
+    }
+    .button:hover {
+        background-color:#BD7070;
+        text-decoration: underline;
+        text-underline-position: under;
+        color: white;
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+}
+
+/* Increases font sizes for when on a small screen */
+@media (max-width: 780px){
+    .button {
+        background-color:#BD7070;
+        color: white;
+    }
+    #togglebox {
+        display: none;
+    }
+    h2 {
+        font-size: 40px;
+    }    
+    h3 {
+        font-size: 26px;
+    }    
+    h4 {
+        font-size: 20px;
+    }    
+    h5 {
+        font-size: 16px;
+    }    
+    p {
+        font-size: 20px;
+    }
+}

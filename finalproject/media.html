@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Pangolin Fanzine - Media</title>
+        <!-- meta objects added to improve accessability, veiwport added for responsiv design and charset set -->
+        <meta name="description" content="A fanzine website for the Taipei-based Punk Rock band, Pangolin">
+        <meta name="author" content="Wai Lee">
+        <meta name="keywords" content="punk, band, taipei band, taiwan band, rock, ska, ska-punk, music, punk rock, fanzine, pangolin band, pangolin fanzine">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">      
+        <meta charset="UTF-8">
+        <!-- Add fonts from Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <!-- Add external stylesheet -->
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        <!-- Favicon added -->
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+        <!-- link fontawesome to add social media icons -->
+        <script src="https://kit.fontawesome.com/8981bb8382.js" crossorigin="anonymous"></script>
+        <!-- Add Handlebars.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+        <!-- add external javascript files, one with commom javascript, one with javascript specific to this page. Defer makes sure that DOM content is loaded first -->
+        <script src="scripts/common.js" defer></script>
+        <script src="scripts/media.js" defer></script>
+    </head>
+    <body>
+        <!-- hidden div that will show large pictures from the image gallery when they are clicked on -->
+        <div class="centredbox">
+            <div id="bigpiccontainer">              
+                <i class="fa-solid fa-xmark fa-2xl" id="closepic"></i>
+            </div>
+        </div>        
+        
+        <!-- Opens up handlebars template and fills the data from the common.js folder -->
+        <script type="text/x-handlebars-template" id="headertemplate">
+            <!-- Header including a logo for the band and menu items that redirect to the five pages within the site. These can be edited in common.js  -->
+            <div id="mainmenucontainer">
+                <div id="logobox">
+                    <h1>
+                        <img src="{{ logo.src }}" alt="{{ logo.alt }}" id="logo">
+                    </h1>
+                </div>
+                <!-- navbar menu items -->            
+                <nav id="menuitems">
+                    {{#each links}}
+                    <a href="{{ this.href }}" class="menuitem">{{ this.name }}</a>
+                    {{/each}}
+                    <i class="fa-solid fa-bars fa-2xl" id="hamburgericon"></i>
+                    <i class="fa-solid fa-x fa-2xl" id="closeicon"></i>
+                </nav> 
+            </div>
+            <nav id="hamburgermenu">
+                {{#each links}}
+                <a href="{{ this.href }}" class="hamburgerlink">{{ this.name }}</a>
+                {{/each}}
+            </nav>
+        </script>
+        <!-- Output from handlebars.js template -->
+        <header id="headeroutput">
+        </header>
+
+        <!-- font size toggle button -->
+        <aside id="toggleboxcontainer">
+            <div id="togglebox">
+            <i class="fa-solid fa-text-height fa-2xl" id="togglefontsize"></i>
+            </div>
+            <div id="toggleboxtext">
+                <span>Click to toggle text size</span>                
+            </div>
+        </aside>
+
+        <main>
+            <!-- Band videos linked to youtube. I decided against hosting them within the page to save space -->
+            <div class="mediacontainer">
+                <section id="videocontainer">
+                    <h2>Videos</h2>
+                    <div id="videos">
+                        <iframe class="video" src="https://www.youtube.com/embed/7lYEui3rRB8" title="YouTube video player" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                        <iframe class="video" src="https://www.youtube.com/embed/CfjKzJIZ__M" title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
+                </section>
+                <script type="text/x-handlebars-template" id="imagestemplate">
+                    <!-- Images section. I use handelbars.js to populate the gallery and add appropriate alt text, please see media.js for more details -->
+                        <h2>Images</h2>
+                        {{#each this}}
+                        <img src="{{ this.location }}" class="gallerypic" alt="{{ this.altText }}">                    
+                        {{/each}}
+                </script>
+                <section id="imagecontainer">
+
+                </section>
+            </div>
+        </main>
+
+        <!-- Sets up handlebars template for footer -->
+        <script type="text/x-handlebars-template" id="footertemplate">
+            <div id="footercontentcontainer">
+                <!-- Three link containers to make three columns of links -->
+                <div class="footerlinkscontainer">
+                    <!-- links to other pages on site -->
+                    <h3>Site links</h3>
+                    {{#each links}}
+                    <a href="{{ this.href }}" class="footer-link">{{ this.name }}</a>
+                    {{/each}}
+                </div>       
+                <div class="footerlinkscontainer">
+                    <!-- Language links -->
+                    <h3>Language</h3>
+                    {{#each languages}}
+                    <a href="#" class="footer-link">{{ this }}</a>
+                    {{/each}}
+                </div>                    
+            </div>
+            <!-- legal & social media links placed in a container for layout purposes -->
+            <div id="socialmedialinkscontainer">
+                {{#each legalLinks}}                   
+                <a href="{{ this.href }}" class="legallink">{{ this.name }}</a>
+                {{/each}}
+                {{#each socialMediaIcons}}
+                <!-- aria-label added for screen readers -->
+                <a href="{{ this.href }}" class="{{ this.icon }} socialmedialink" aria-label="{{ this.label }}"></a>
+                {{/each}}
+            </div> 
+        </script>
+
+        <!-- filled in handlebars template output here -->
+        <footer id="footeroutput">         
+
+        </footer>
+    </body>
+</html>

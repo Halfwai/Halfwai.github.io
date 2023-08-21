@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Pangolin Fanzine - Home</title>
+        <!-- meta objects added to improve accessability, veiwport added for responsiv design and charset set -->
+        <meta name="description" content="A fanzine website for the Taipei-based Punk Rock band, Pangolin">
+        <meta name="author" content="Wai Lee">
+        <meta name="keywords" content="punk, band, taipei band, taiwan band, rock, ska, ska-punk, music, punk rock, fanzine, pangolin band, pangolin fanzine">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">      
+        <meta charset="UTF-8">
+        <!-- Add fonts from Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <!-- Add external stylesheet -->
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        <!-- Favicon added -->
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+        <!-- link fontawesome to add social media icons -->
+        <script src="https://kit.fontawesome.com/8981bb8382.js" crossorigin="anonymous"></script>
+        <!-- Add Handlebars.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+        <!-- add external javascript files, one with commom javascript, one with javascript specific to this page. Defer makes sure that DOM content is loaded first -->
+        <script src="scripts/common.js" defer></script>
+        <script src="scripts/index.js" defer></script>
+    </head>
+    <!-- body class set as preload where CSS animations are disabled while the page loads content. On page load preload class is taken away and animations are enabled -->
+    <body class="preload">
+         <!-- Opens up handlebars template and fills the data from the common.js folder -->
+         <script type="text/x-handlebars-template" id="headertemplate">
+            <!-- Header including a logo for the band and menu items that redirect to the five pages within the site. These can be edited in common.js  -->
+            <div id="mainmenucontainer">
+                <div id="logobox">
+                    <h1>
+                        <img src="{{ logo.src }}" alt="{{ logo.alt }}" id="logo">
+                    </h1>
+                </div>
+                <!-- navbar menu items -->            
+                <nav id="menuitems">
+                    {{#each links}}
+                    <a href="{{ this.href }}" class="menuitem">{{ this.name }}</a>
+                    {{/each}}
+                    <i class="fa-solid fa-bars fa-2xl" id="hamburgericon"></i>
+                    <i class="fa-solid fa-x fa-2xl" id="closeicon"></i>
+                </nav> 
+            </div>
+            <nav id="hamburgermenu">
+                {{#each links}}
+                <a href="{{ this.href }}" class="hamburgerlink">{{ this.name }}</a>
+                {{/each}}
+            </nav>
+        </script>
+        <!-- Output from handlebars.js template -->
+        <header id="headeroutput">
+        </header>
+
+        <!-- font size toggle button -->
+        <aside id="toggleboxcontainer">
+            <div id="togglebox">
+            <i class="fa-solid fa-text-height fa-2xl" id="togglefontsize"></i>
+            </div>
+            <div id="toggleboxtext">
+                <span>Click to toggle text size</span>                
+            </div>
+        </aside>
+
+        <main>
+            <!-- Image carousel. Images are laid out in a row then hidden, apart from the image being shown. Check index.js for more details -->
+            <figure id="imagecarousel"> 
+                <div class="slide">
+                    <img src="images/carousel/carousel1.webp" alt="Wai Lee singing" class="carouselimage">
+                </div>
+                <div class="slide">
+                    <img src="images/carousel/carousel2.webp" alt="All four members of Pangolin on stage under a red light" class="carouselimage">
+                </div>
+                <div class="slide">
+                    <img src="images/carousel/carousel3.webp" alt="Wai Lee shouting into a microphone while playing guitar" class="carouselimage">
+                </div>
+                <div class="slide">
+                    <img src="images/carousel/carousel4.webp" alt="Pangolin on stage from taken through members of the crowd" class="carouselimage">
+                </div>
+                <button class="carouselbtn" id="btnprev">&lt;</button>  
+                <button class="carouselbtn" id="btnnext">&gt;</button>                     
+            </figure>
+            <div id="mainpagecontent">
+                <!-- Main part of page, the content is split into 2 columns that will be side by side on a large screen, then stack into a row on a mobile screen -->
+                <section id="mainpageleftcolumn">
+                    <!-- main news story -->
+                    <h2>Top Story</h2>
+                    <article class="contentbox" id="mainnewsbox">                            
+                        <figure class="centredbox">
+                            <img src="images/Canadaday.jpg" alt="Pangolin on stage playing at Taipei Canada Day" id="topstoryimage">
+                        </figure>
+                        <h3>Pangolin tear up Canada Day Celebrations.</h3>
+                        <h4><i class="fa-solid fa-pen"></i>Wai Lee</h4>
+                        <h5><i class="fa-solid fa-calendar-days"></i> July 20th 2022</h5>
+                        <p>Pangolin rocked out in the rain during this year's Taipei Canada Day Celebrations.</p>    
+                        <a href="news.html#canadaDay" class="button">Full Story</a>                        
+                    </article>
+                    <!-- Link to youtube Video -->
+                    <h2>Featured Video</h2>
+                    <article class="contentbox" id="mainvideobox">     
+                        <h3>Pangolin play Masterplan at Revolver</h3>                       
+                        <figure class="centredbox">                            
+                            <iframe class="video" src="https://www.youtube.com/embed/7lYEui3rRB8" title="YouTube video player" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                            </iframe>
+                        </figure>
+                    </article>
+                </section>
+
+                <section id="mainpagerightcolumn">
+                    <!-- Smaller news stories stacked in a column -->
+                    <h2>Recent news</h2>
+                    <article class="recentnewsbox contentbox">
+                        <div class="recentnewsimagecontainer">
+                            <figure>
+                                <img src="images/pangolingoldseal.jpg" alt="Gig poster for Pangolin and Gold Seal featuring pictures of both bands" class="recentnewsimage">
+                            </figure>
+                        </div>
+                        <div class="newstext">
+                            <h3>Pangolin Play at Bobwundaye with Gold Seal</h3>
+                            <h4><i class="fa-solid fa-pen"></i>Wai Lee</h4>
+                            <h5><i class="fa-solid fa-calendar-days"></i> July 5th 2022</h5>
+                            <p>Pangolin will play at Bobwundaye this coming Saturday with Gold Seal</p>
+                            <a href="news.html#goldSeal" class="button">Full Story</a>
+                        </div>
+                    </article>                      
+
+                    <article class="recentnewsbox contentbox">
+                        <div class="recentnewsimagecontainer">
+                            <figure>
+                                <img src="images/pangolinstudio.jpg" alt="Logo for Pangolin" class="recentnewsimage">
+                            </figure>
+                        </div>
+                        <div class="newstext">
+                            <h3>Pangolin hit the studio to record inagural first album</h3>
+                            <h4><i class="fa-solid fa-pen"></i>Wai Lee</h4>
+                            <h5><i class="fa-solid fa-calendar-days"></i> June 21th 2022</h5>
+                            <p>Pangolin are in the studio getting to work on their first studio album</p>
+                            <a href="news.html#studio" class="button">Full Story</a>
+                        </div>
+                    </article> 
+
+                    <article class="recentnewsbox contentbox">
+                        <div class="recentnewsimagecontainer">
+                            <figure>
+                                <img src="images/pangolindecaders.jpg" alt="Gig poster for Pangolin and The Decaders featuring the cartoon image of a man in a surgical mask" class="recentnewsimage">
+                            </figure>
+                        </div>
+                        <div class="newstext">
+                            <h3>Pangolin and The Decaders Taipei show this Saturday!</h3>
+                            <h4><i class="fa-solid fa-pen"></i>Wai Lee</h4>
+                            <h5><i class="fa-solid fa-calendar-days"></i> May 15th 2022</h5>
+                            <p>Pangolin will play with the Decaders this Saturday!</p>
+                            <a href="news.html#decaders" class="button">Full Story</a>
+                        </div>
+                    </article>  
+
+                    <article class="recentnewsbox contentbox">
+                        <div class="recentnewsimagecontainer">
+                            <figure>
+                                <img src="images/beicity.jpg" alt="Gig poster for Bei City Rock Festival showing an image of Pangolin" class="recentnewsimage">
+                            </figure>
+                        </div>
+                        <div class="newstext">
+                            <h3>Bei City Rock CANCELLED</h3>
+                            <h4><i class="fa-solid fa-pen"></i>Wai Lee</h4>
+                            <h5><i class="fa-solid fa-calendar-days"></i> April 25th 2022</h5>
+                            <p>Bei City Rock has been canceled</p>
+                            <a href="news.html#beiCity" class="button">Full Story</a>
+                        </div>
+                    </article>  
+                </section>
+            </div>
+        </main>
+
+        <!-- Sets up handlebars template for footer -->
+        <script type="text/x-handlebars-template" id="footertemplate">
+            <div id="footercontentcontainer">
+                <!-- Three link containers to make three columns of links -->
+                <div class="footerlinkscontainer">
+                    <!-- links to other pages on site -->
+                    <h3>Site links</h3>
+                    {{#each links}}
+                    <a href="{{ this.href }}" class="footer-link">{{ this.name }}</a>
+                    {{/each}}
+                </div>       
+                <div class="footerlinkscontainer">
+                    <!-- Language links -->
+                    <h3>Language</h3>
+                    {{#each languages}}
+                    <a href="#" class="footer-link">{{ this }}</a>
+                    {{/each}}
+                </div>                    
+            </div>
+            <!-- legal & social media links placed in a container for layout purposes -->
+            <div id="socialmedialinkscontainer">
+                {{#each legalLinks}}                   
+                <a href="{{ this.href }}" class="legallink">{{ this.name }}</a>
+                {{/each}}
+                {{#each socialMediaIcons}}
+                <!-- aria-label added for screen readers -->
+                <a href="{{ this.href }}" class="{{ this.icon }} socialmedialink" aria-label="{{ this.label }}"></a>
+                {{/each}}
+            </div> 
+        </script>
+
+        <!-- filled in handlebars template output here -->
+        <footer id="footeroutput">         
+
+        </footer>
+    </body>
+</html>

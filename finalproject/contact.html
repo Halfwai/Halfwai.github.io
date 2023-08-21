@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Pangolin Fanzine - Contact the Band</title>
+        <!-- meta objects added to improve accessability, veiwport added for responsiv design and charset set -->
+        <meta name="description" content="A fanzine website for the Taipei-based Punk Rock band, Pangolin">
+        <meta name="author" content="Wai Lee">
+        <meta name="keywords" content="punk, band, taipei band, taiwan band, rock, ska, ska-punk, music, punk rock, fanzine, pangolin band, pangolin fanzine">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">      
+        <meta charset="UTF-8">
+        <!-- Add fonts from Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <!-- Add external stylesheet -->
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        <!-- Favicon added -->
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+        <!-- link fontawesome to add social media icons -->
+        <script src="https://kit.fontawesome.com/8981bb8382.js" crossorigin="anonymous"></script>
+        <!-- Add Handlebars.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+        <!-- add external javascript files, one with commom javascript, one with javascript specific to this page. Defer makes sure that DOM content is loaded first -->
+        <script src="scripts/common.js" defer></script>
+        <script src="scripts/contact.js" defer></script>        
+    </head>
+    <body>
+                 <!-- Opens up handlebars template and fills the data from the common.js folder -->
+        <script type="text/x-handlebars-template" id="headertemplate">
+            <!-- Header including a logo for the band and menu items that redirect to the five pages within the site. These can be edited in common.js  -->
+            <div id="mainmenucontainer">
+                <div id="logobox">
+                    <h1>
+                        <img src="{{ logo.src }}" alt="{{ logo.alt }}" id="logo">
+                    </h1>
+                </div>
+                <!-- navbar menu items -->            
+                <nav id="menuitems">
+                    {{#each links}}
+                    <a href="{{ this.href }}" class="menuitem">{{ this.name }}</a>
+                    {{/each}}
+                    <i class="fa-solid fa-bars fa-2xl" id="hamburgericon"></i>
+                    <i class="fa-solid fa-x fa-2xl" id="closeicon"></i>
+                </nav> 
+            </div>
+            <nav id="hamburgermenu">
+                {{#each links}}
+                <a href="{{ this.href }}" class="hamburgerlink">{{ this.name }}</a>
+                {{/each}}
+            </nav>
+        </script>
+        <!-- Output from handlebars.js template -->
+        <header id="headeroutput">
+        </header>
+
+        <!-- font size toggle button -->
+        <aside id="toggleboxcontainer">
+            <div id="togglebox">
+            <i class="fa-solid fa-text-height fa-2xl" id="togglefontsize"></i>
+            </div>
+            <div id="toggleboxtext">
+                <span>Click to toggle text size</span>                
+            </div>
+        </aside>
+
+        <main>
+            <section id="contactuscontainer">
+                <h2>Contact Us</h2>
+                <p>
+                    If you want to get in touch, we're avalible for booking for shows, wedding and bar mitzvah, or maybe you just want to reach out to tell us a funny story or joke? 
+                    Please use the contact form below, we're looking forward to hearing from you!
+                </p>
+                <!-- Contact form uses appripriate types for each input tag, then Javascript will also validate that all data is of correct format, see contact.js for details -->
+                <section id="contactformcontainer">
+                    <h3>Contact Form</h3>
+                    <form id="contactform">
+                        <!-- inputs are unlabeled because placeholder fill this need for signted users, while the title attribute is used for screenreaders -->
+                        <input type="text" id="name" class="inputfield" placeholder="Name" title="name">                        
+                        <input type="email" id="email" class="inputfield" placeholder="Email Address" title="email address">                        
+                        <input type="tel" id="phonenumber" class="inputfield" placeholder="Phone Number" title="phone number">
+                        <textarea id="commentbox" class="inputfield" placeholder="Leave a Comment" title="commentbox"></textarea>
+                        <input type="submit" class="button" value="Submit">    
+                    </form>
+                    <img src="images/contact.jpg" alt="Some telephones" id="contactimage">
+                </section>
+            </section>
+        </main>
+        
+        <!-- Sets up handlebars template for footer -->
+        <script type="text/x-handlebars-template" id="footertemplate">
+            <div id="footercontentcontainer">
+                <!-- Three link containers to make three columns of links -->
+                <div class="footerlinkscontainer">
+                    <!-- links to other pages on site -->
+                    <h3>Site links</h3>
+                    {{#each links}}
+                    <a href="{{ this.href }}" class="footer-link">{{ this.name }}</a>
+                    {{/each}}
+                </div>       
+                <div class="footerlinkscontainer">
+                    <!-- Language links -->
+                    <h3>Language</h3>
+                    {{#each languages}}
+                    <a href="#" class="footer-link">{{ this }}</a>
+                    {{/each}}
+                </div>                    
+            </div>
+            <!-- legal & social media links placed in a container for layout purposes -->
+            <div id="socialmedialinkscontainer">
+                {{#each legalLinks}}                   
+                <a href="{{ this.href }}" class="legallink">{{ this.name }}</a>
+                {{/each}}
+                {{#each socialMediaIcons}}
+                <!-- aria-label added for screen readers -->
+                <a href="{{ this.href }}" class="{{ this.icon }} socialmedialink" aria-label="{{ this.label }}"></a>
+                {{/each}}
+            </div> 
+        </script>
+
+        <!-- filled in handlebars template output here -->
+        <footer id="footeroutput">         
+
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Report for CM1040 Web Development</title>
+        <!-- meta objects added to improve accessability, veiwport added for responsiv design and charset set -->
+        <meta name="description" content="A fanzine website for the Taipei-based Punk Rock band, Pangolin">
+        <meta name="author" content="Wai Lee">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">      
+        <meta charset="UTF-8">
+        <!-- Add fonts from Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <!-- Add external stylesheet -->
+        <link rel="stylesheet" type="text/css" href="styles/reportstyles.css">
+        <!-- Favicon added -->
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    </head>
+    <body>
+        <main>
+            <h1>Report for CM1040 Web Development</h1>
+            <h2>By Wai-San Lee</h2>
+            <h3>
+                Introduction: What is the essential story being told by your site and what type of structure did you choose to implement
+            </h3>
+            <p>
+                I decided to make a Fanzine website dedicated to my band Pangolin. On this website you would be able to learn about the band and its history, 
+                read news about what the band has been doing, get in touch if you want to book the band, and watch videos and see pictures of the band. 
+                I wanted to tell the story of the band, both its past and its future. There are the following 5 pages on this site as requested:
+                <ul>
+                    <li>
+                        A home page that has an image carousel, and gives some snippets of news, as well as a featured video.
+                    </li>
+                    <li>
+                        A news page for news about the band. There is one featured news story, and then the rest of the news items are placed below this in an “other news” section.
+                    </li>
+                    <li>
+                        An about page which takes the form of an article detailing the history of the band interspaced with some images.
+                    </li>
+                    <li>
+                        A contact page that has a contact form for getting in touch with the band. The form validates email addresses and phone numbers, and check that the user has written a comment.
+                    </li>
+                    <li>
+                        A media page that host all the videos and images for the user to browse though. Images can be clicked on to show a larger version of said image.
+                    </li>
+                </ul>
+            </p>
+            <h3>
+                State 3 things that have inspired you when creating your website. These could include guest speakers, other websites, artists, developers etc. 
+            </h3>
+            <p>
+                <ol>
+                    <li>
+                        I really liked the clean black on white imagery from the website for the “Nine inch nails” (https://www.nin.com/). While many band websites have 
+                        bright and colourful websites, I felt that the clean look really helps the images and text pop out for the user, and I copied this colour scheme, with 
+                        a little added personal touch of colour from the band logo to break the page up.
+                    </li>
+                    <li>
+                        The other members of the band. When designing the website I talked with the other members of the band about the sort of things that they would 
+                        like to see on the site. The idea for the contact page came from these discussions, and some of the pictures from the news items were designed by 
+                        our drummer Moshe Forster.
+                    </li>
+                    <li>
+                        The members of my group for our mid-term project. I was lucky to have a group of talented individuals, and I took some influence from their design 
+                        ideas from our Theme Park website. It was a great experience, and I think my website would probably look very different had I gone straight into 
+                        it without the previous experience of the mid-term project.
+                    </li>
+                </ol>
+            </p>
+            <h3>
+                State 3 ways in which your site is accessible.
+            </h3>
+            <p>
+                <ol>
+                    <li>
+                        The high contrast black on white colour scheme helps break the page to support users with colour blindness. I also used the chrome extension
+                         “Colorblindly”. To check that all content could be read and accessed for a variety of colour-blindness types. I also added a toggle button 
+                         that allows the user to increase the font-size of all text on the website to assist users that have vision issues.
+                    </li>
+                    <li>
+                        All images have unique alt text added to help with users using screen readers. Where possible I used semantic tags at the root of each part of the site to make 
+                        the website more navigable, again for nonsighted users. This should also help to make the meaning and content of each section more understandable and clear to users. I also made sure that there was a standard progression of headers through the page 
+                        to indicated importance. I also used aria-roles for some of the social media icons from fontawesome.                         
+                    </li>
+                    <li>
+                        I used the “WAVE evaluation tool” to go through each page one at a time and solve any errors, or address any alerts in regard to accessibility. This meant
+                        making my alt text more concise, making sure every section has a heading, and the page adhered to all their alerts and warnings. The alerts that are 
+                        outstanding concern using YouTube video and their video captioning. As the owner of the videos, I went in and wrote captioning for all YouTube videos 
+                        linked on the site to make sure that they are of sufficient quality. The other outstanding alert was in regard to my contact form and the lack of labels. 
+                        I made the design decision to omit labels, and instead used placeholders for sighted users, and title attributes for unsighted users.
+                    </li>
+                </ol>
+            </p>
+            <h3>
+                State 3 ways in which you have considered usability in your site. 
+            </h3>
+            <p>
+                <ol>
+                    <li>
+                        I tried to make sure that everything is spaced well on both full screens and with mobile and tablet screens. Media queries were used to make 
+                        sure that the content was optimised for the device that the user is viewing on.
+                    </li>
+                    <li>
+                        The menus are clearly named and give a good indication of the content that the user will find on each page. Each page apart from the index 
+                        page has a heading right at the top that corresponds to the page that you are on and I tried to be as explicit as possible when naming each page.
+                    </li>
+                    <li>
+                        I used handlebars templates to make sure that all pages share the same header and footer. This allows the user to know where things 
+                        are and how each page will be laid out after just viewing one page, bringing consistancy to the whole site.
+                    </li>
+                </ol>
+            </p>
+            <h3>
+                State 3 things you had to learn/find out by yourself when creating your site, and describe how you did that (i.e. what searches you did, 
+                any new tools/techniques you learned, any changes/adaptations you made to a particular resource to make it work with your site). 
+            </h3>
+            <p>
+                <ol>
+                    <li>
+                        The image carousel took some work to learn how to do. I took a lot of inspiration from 
+                        https://blog.logrocket.com/build-image-carousel-from-scratch-vanilla-javascript/ for the basis of this, but I played around with 
+                        the variables a bit, set the initial image to be randomly picked and changed the styling. I also had to write some code to create space at the 
+                        top of the page as the “position: absolute” style in the carousel. Finally I added a timer to make the Carousel change image every 5 seconds.
+                    </li>
+                    <li>
+                        How to run functions and addEventListeners, then how to abstract out functions as opposed to running them within the event 
+                        listener. In doing so I learned about arrow notation and how you can use it to make more elegant code. While a small website doesn’t necessarily 
+                        need abstracted functions as the code base is relatively small, it’s something that will become more and more important as I work on bigger and 
+                        bigger projects.
+                    </li>
+                    <li>
+                        The general idea of how to make code work well on a website. For example, I had a basic idea of how I could make the image gallery 
+                        work, but the actual coding took some time and research. I used W3 schools and Mdn web docs for many different smaller parts of the 
+                        site, as well as previous question on StackOverflow for more specific debugging issues. 
+                    </li>
+                </ol>
+            </p>
+            <h3>
+                What aspect(s) of your work do you think worked well and why? 
+            </h3>
+            <p>
+                I was very happy with the aforementioned image gallery code, and I’m generally happy with the overall look and design of my site. I think 
+                I implemented some nice CSS animations to make the user feel like they are really interacting with the site, and I added the specific 
+                functionality that I was looking for with the Javascript that I used. Although, through the limits of the project, the contact page doesn’t 
+                actually go anywhere, I am aware that form validation is an important part of web development, so I’m happy that I was able to implement 
+                this and validate email addresses and phone numbers using regular expressions from https://www.w3resource.com/ and
+                 https://www.w3resource.com/javascript/form/phone-no-validation.php 
+            </p>
+            <h3>
+                What aspect(s) of your work could be improved, and how might you do things differently another time? 
+            </h3>
+            <p>
+                I feel like I could have added more functionality to my page, more things for the user to interact with and the like. I also feel that although 
+                the sizing and layout using flexboxes is functional, I had to make some compromises. For example, on the contact page the only way I could 
+                find to keep the form boxes within the picture was to fix the picture height, which means that the picture distorts on some screens. The 
+                alternative would to have had the image set as a background using CSS, but then I would not be able to add alt text to it. I’m sure there 
+                is a better way to do it, but I could not figure it out. 
+            </p>
+            <p>
+                Next time, I think I would like to learn how to use jquery. I’ve seen people talk a lot about how it can really help make things easier when
+                 manipulating the DOM.  I also had some issues with animations before the page content has all properly loaded, for example, on the index page,
+                  I have JavaScript make the space for the carousel, but this takes some time to load, and initially the carousel covers some content. Also when
+                   resizing the screen there is some lag with the button sizing because I added some animation effect to them. I would also like to add more 
+                   accessibility content to the site and I would do more research on ways I can apply to this such as contrast sliders or more use of aria-roles.
+            </p>
+            <h3>
+                What resources were used when creating your work? You should list here any sources of information, libraries, plug-ins or other code that you
+                 used to create your site. You should also reference any code you've used by inserting comments at the start of the scripts. 
+            </h3>
+            <ul>
+                <li>
+                    David Herbert “Build an image carousel from scratch with vanilla JavaScript” April 12, 2022 [source code] 
+                    https://blog.logrocket.com/build-image-carousel-from-scratch-vanilla-javascript/ . [Accessed: 02- Aug- 2022].
+                </li>
+                <li>                
+                    Jan Goyvaerts, Steven Levithan “ Regular Expressions Cookbook” [online] https://www.oreilly.com/library/view/regular-expressions-cookbook/9781449327453/ch04s03.html 
+                    [Accessed: 05 - Aug- 2022].
+                </li>
+                <li>
+                    “JavaScript: HTML Form - email validation" [online] https://www.w3resource.com/javascript/form/email-validation.php [Accessed: 05 - Aug- 2022].
+                </li>
+                <li>
+                    “JavaScript: HTML Form - Phone Number validation” [online] https://www.w3resource.com/javascript/form/phone-no-validation.php [Accessed: 05 - Aug- 2022].
+                </li>
+                <li>
+                    https://www.nin.com/ [online] [Accessed: 28 - Jul- 2022].
+                </li>
+                <li>
+                    https://developer.mozilla.org/en-US/ [online] [Accessed: 29 – July – 2022 – 07 July 2022].
+                </li>
+                <li>
+                    https://www.w3schools.com/ [online] [Accessed: 29 – July – 2022 – 07 July 2022].
+                </li>
+                <li>
+                    https://stackoverflow.com/ [online] [Accessed: 29 – July – 2022 – 07 July 2022].
+                </li>
+                <li>
+                    “Handlebars.js” https://handlebarsjs.com/ [online] [Accessed: 29 – July – 2022 – 07 July 2022].
+                </li>
+                <li>
+                    oftheheadland "Colorblindly" https://chrome.google.com/webstore/detail/colorblindly/floniaahmccleoclneebhhmnjgdfijgg?hl=en [online] [Accessed: 07 – August – 2022]
+                </li>
+                <li>
+                    WebAIM "WAVE Evaluation Tool" https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh [online] [Accessed: 07 – August – 2022]
+                </li>
+                <li>
+                    All band images and videos are owned by the band, Pangolin
+                </li>
+            </ul>
+            <h3>
+                Appendices: Site Map, Wireframes and Mockups 
+            </h3>
+            <h4>Site Map</h4>
+            <img src="images/sitemap/sitemap.jpg" id="sitemap">
+            <h4>Wireframes</h4>
+            <h5>Index Full Page wireframe</h5>
+            <img src="images/wireframes/indexfullpagewireframe.webp" class="fullpagewireframe">
+            <h5>News Full Page wireframe</h5>
+            <img src="images/wireframes/newsfullpagewireframe.webp" class="fullpagewireframe">
+            <h5>About Full Page wireframe</h5>
+            <img src="images/wireframes/aboutfullpagewireframe.webp" class="fullpagewireframe">
+            <h5>Contact Full Page wireframe</h5>
+            <img src="images/wireframes/contactfullpagewireframe.webp" class="fullpagewireframe">
+            <h5>Media Full Page wireframe</h5>
+            <img src="images/wireframes/mediafullpagewireframe.webp" class="fullpagewireframe">         
+
+            <div>
+                <div class="mobile">
+                    <h5>Index Mobile wireframe</h5>
+                    <img src="images/wireframes/indexmobilewireframe.webp" class="mobilewireframe">
+                </div>
+                <div class="mobile">
+                    <h5>News Mobile wireframe</h5>
+                    <img src="images/wireframes/newsmobilewireframe.webp" class="mobilewireframe">
+                </div>
+            </div>
+            <div>
+                <div class="mobile">
+                    <h5>About Mobile wireframe</h5>
+                    <img src="images/wireframes/aboutmobilewireframe.webp" class="mobilewireframe">
+                </div>
+                <div class="mobile">
+                    <h5>Contact Mobile wireframe</h5>
+                    <img src="images/wireframes/contactmobilewireframe.webp" class="mobilewireframe">      
+                </div>          
+            </div>
+            <div class="mobile">
+                <h5>Media Mobile wireframe</h5>
+                <img src="images/wireframes/mediamobilewireframe.webp" class="mobilewireframe">
+            </div>
+
+            <h4>Mockups</h4>
+            <h5>Index Full Page mockup</h5>
+            <img src="images/mockups/indexfullpagemockup.webp" class="fullpagemockup">
+            <h5>News Full Page mockup</h5>
+            <img src="images/mockups/newsfullpagemockup.webp" class="fullpagemockup">
+            <h5>About Full Page mockup</h5>
+            <img src="images/mockups/aboutfullpagemockup.webp" class="fullpagemockup">
+            <h5>Contact Full Page mockup</h5>
+            <img src="images/mockups/contactfullpagemockup.webp" class="fullpagemockup">
+            <h5>Media Full Page mockup</h5>
+            <img src="images/mockups/mediafullpagemockup.webp" class="fullpagemockup">         
+
+            <div>
+                <div class="mobile">
+                    <h5>Index Mobile mockup</h5>
+                    <img src="images/mockups/indexmobilemockup.webp" class="mobilemockup">
+                </div>
+                <div class="mobile">
+                    <h5>News Mobile mockup</h5>
+                    <img src="images/mockups/newsmobilemockup.webp" class="mobilemockup">
+                </div>
+            </div>
+            <div>
+                <div class="mobile">
+                    <h5>About Mobile mockup</h5>
+                    <img src="images/mockups/aboutmobilemockup.webp" class="mobilemockup">
+                </div>
+                <div class="mobile">
+                    <h5>Contact Mobile mockup</h5>
+                    <img src="images/mockups/contactmobilemockup.webp" class="mobilemockup">      
+                </div>          
+            </div>
+            <div class="mobile">
+                <h5>Media Mobile mockup</h5>
+                <img src="images/mockups/mediamobilemockup.webp" class="mobilemockup">
+            </div>
+        </main>
+    </body>
+</html>

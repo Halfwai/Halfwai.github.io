@@ -1,0 +1,18 @@
+body {
+    padding: 30px;
+}
+
+.fullpagewireframe, #sitemap, .mobilewireframe, .fullpagemockup, .mobilemockup  {
+    width: 80%;
+}
+
+div {
+    display: flex;
+    padding: 30px;
+}
+
+.mobile {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
