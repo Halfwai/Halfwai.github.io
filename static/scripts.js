@@ -15,3 +15,24 @@ icons.forEach(icon => {
         icon.classList.add("fa-4x")
     })
 });
+
+skillIcons = document.querySelectorAll(".skill-icon")
+initialOffsets = [];
+for(let i = 0; i < skillIcons.length; i++){
+    initialOffsets.push(skillIcons[i].offsetLeft);
+}
+let iconOffset = 0;
+const testWidth = window.innerWidth/19;
+setInterval(moveIcons);
+function moveIcons(){
+    iconOffset -= 1
+    for(let i = 0; i < skillIcons.length; i++){
+        skillIcons[i].style.left = `${iconOffset}px`;
+        let provisionalOffset = iconOffset;
+        while(skillIcons[i].getBoundingClientRect().x < -testWidth){
+            provisionalOffset += window.innerWidth + testWidth;
+            skillIcons[i].style.left = `${provisionalOffset}px`;
+        }
+    }
+}
+

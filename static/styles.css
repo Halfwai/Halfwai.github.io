@@ -120,7 +120,7 @@ h3 {
     -o-border-radius: 100px;
 }
 
-#projects, #contact {
+#projects, #contact, #skills {
     margin-top: 200px;
     background-color: white;
     padding: 100px 0px 100px;
@@ -222,4 +222,17 @@ h5 {
     #tagline {
         font-size: 3em;
     }
+}
+
+.skill-icon {
+    width: 6.3%;
+    padding: 12px;
+    position: relative;
+    left: 50px;
+}
+
+.skill-icon-box {
+    margin: 100px 0px 100px;
+    overflow: hidden;
+    display: flex;
 }
