@@ -1,0 +1,988 @@
+Pokédex No.,Name,Type 1,Game of Origin,Image URLs
+1,Bulbasaur,Grass,Pokémon Red,https://archives.bulbagarden.net/media/upload/2/21/001Bulbasaur.png
+2,Ivysaur,Grass,Pokémon Red,https://archives.bulbagarden.net/media/upload/7/73/002Ivysaur.png
+3,Venusaur,Grass,Pokémon Red,https://archives.bulbagarden.net/media/upload/a/ae/003Venusaur.png
+3,Mega Venusaur,Grass,Pokémon X,https://archives.bulbagarden.net/media/upload/7/73/003Venusaur-Mega.png
+4,Charmander,Fire,Pokémon Red,https://archives.bulbagarden.net/media/upload/7/73/004Charmander.png
+5,Charmeleon,Fire,Pokémon Red,https://archives.bulbagarden.net/media/upload/4/4a/005Charmeleon.png
+6,Charizard,Fire,Pokémon Red,https://archives.bulbagarden.net/media/upload/7/7e/006Charizard.png
+6,Mega Charizard Y,Fire,Pokémon X,https://archives.bulbagarden.net/media/upload/3/36/006Charizard-Mega_X.png
+6,Mega Charizard X,Fire,Pokémon X,https://archives.bulbagarden.net/media/upload/f/fd/006Charizard-Mega_Y.png
+7,Squirtle,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/3/39/007Squirtle.png
+8,Wartortle,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/0/0c/008Wartortle.png
+9,Blastoise,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/0/02/009Blastoise.png
+9,Mega Blastoise,Water,Pokémon X,https://archives.bulbagarden.net/media/upload/8/85/009Blastoise-Mega.png
+10,Caterpie,Bug,Pokémon Red,https://archives.bulbagarden.net/media/upload/5/5d/010Caterpie.png
+11,Metapod,Bug,Pokémon Red,https://archives.bulbagarden.net/media/upload/c/cd/011Metapod.png
+12,Butterfree,Bug,Pokémon Red,https://archives.bulbagarden.net/media/upload/d/d1/012Butterfree.png
+13,Weedle,Bug,Pokémon Red,https://archives.bulbagarden.net/media/upload/d/df/013Weedle.png
+14,Kakuna,Bug,Pokémon Red,https://archives.bulbagarden.net/media/upload/f/f0/014Kakuna.png
+15,Beedrill,Bug,Pokémon Red,https://archives.bulbagarden.net/media/upload/6/61/015Beedrill.png
+16,Pidgey,Normal,Pokémon Red,https://archives.bulbagarden.net/media/upload/5/55/016Pidgey.png
+17,Pidgeotto,Normal,Pokémon Red,https://archives.bulbagarden.net/media/upload/7/7a/017Pidgeotto.png
+18,Pidgeot,Normal,Pokémon Red,https://archives.bulbagarden.net/media/upload/5/57/018Pidgeot.png
+19,Rattata,Normal,Pokémon Red,https://archives.bulbagarden.net/media/upload/4/46/019Rattata.png
+19,Alolan Rattata,Dark,Pokémon Sun,https://archives.bulbagarden.net/media/upload/9/91/019Rattata-Alola.png
+20,Raticate,Normal,Pokémon Red,https://archives.bulbagarden.net/media/upload/f/f4/020Raticate.png
+20,Alolan Raticate,Dark,Pokémon Sun,https://archives.bulbagarden.net/media/upload/7/71/020Raticate-Alola.png
+21,Spearow,Normal,Pokémon Red,https://archives.bulbagarden.net/media/upload/8/8b/021Spearow.png
+22,Fearow,Normal,Pokémon Red,https://archives.bulbagarden.net/media/upload/a/a0/022Fearow.png
+23,Ekans,Poison,Pokémon Red,https://archives.bulbagarden.net/media/upload/f/fa/023Ekans.png
+24,Arbok,Poison,Pokémon Red,https://archives.bulbagarden.net/media/upload/c/cd/024Arbok.png
+25,Pikachu,Electric,Pokémon Red,https://archives.bulbagarden.net/media/upload/0/0d/025Pikachu.png
+26,Raichu,Electric,Pokémon Red,https://archives.bulbagarden.net/media/upload/8/88/026Raichu.png
+26,Alolan Raichu,Electric,Pokémon Sun,https://archives.bulbagarden.net/media/upload/3/3a/026Raichu-Alola.png
+27,Sandshrew,Ground,Pokémon Red,https://archives.bulbagarden.net/media/upload/9/9e/027Sandshrew.png
+27,Alolan Sandshrew,Ice,Pokémon Sun,https://archives.bulbagarden.net/media/upload/c/c9/027Sandshrew-Alola.png
+28,Sandslash,Ground,Pokémon Red,https://archives.bulbagarden.net/media/upload/0/0b/028Sandslash.png
+28,Alolan Sandslash,Ice,Pokémon Sun,https://archives.bulbagarden.net/media/upload/b/bd/028Sandslash-Alola.png
+29,Nidoran Female,Poison,Pokémon Red,https://archives.bulbagarden.net/media/upload/8/81/029Nidoran.png
+30,Nidorina,Poison,Pokémon Red,https://archives.bulbagarden.net/media/upload/c/cd/030Nidorina.png
+31,Nidoqueen,Poison,Pokémon Red,https://archives.bulbagarden.net/media/upload/b/bf/031Nidoqueen.png
+32,Nidoran Male,Poison,Pokémon Red,https://archives.bulbagarden.net/media/upload/4/4a/032Nidoran.png
+33,Nidorino,Poison,Pokémon Red,https://archives.bulbagarden.net/media/upload/9/9f/033Nidorino.png
+34,Nidoking,Poison,Pokémon Red,https://archives.bulbagarden.net/media/upload/c/c6/034Nidoking.png
+35,Clefairy,Fairy,Pokémon Red,https://archives.bulbagarden.net/media/upload/f/f4/035Clefairy.png
+36,Clefable,Fairy,Pokémon Red,https://archives.bulbagarden.net/media/upload/a/a9/036Clefable.png
+37,Vulpix,Fire,Pokémon Red,https://archives.bulbagarden.net/media/upload/6/60/037Vulpix.png
+37,Alolan Vulpix,Ice,Pokémon Sun,https://archives.bulbagarden.net/media/upload/3/35/037Vulpix-Alola.png
+38,Ninetales,Fire,Pokémon Red,https://archives.bulbagarden.net/media/upload/0/05/038Ninetales.png
+38,Alolan Ninetales,Ice,Pokémon Sun,https://archives.bulbagarden.net/media/upload/2/26/038Ninetales-Alola.png
+39,Jigglypuff,Normal,Pokémon Red,https://archives.bulbagarden.net/media/upload/3/3e/039Jigglypuff.png
+40,Wigglytuff,Normal,Pokémon Red,https://archives.bulbagarden.net/media/upload/9/92/040Wigglytuff.png
+41,Zubat,Poison,Pokémon Red,https://archives.bulbagarden.net/media/upload/d/da/041Zubat.png
+42,Golbat,Poison,Pokémon Red,https://archives.bulbagarden.net/media/upload/0/0c/042Golbat.png
+43,Oddish,Grass,Pokémon Red,https://archives.bulbagarden.net/media/upload/4/43/043Oddish.png
+44,Gloom,Grass,Pokémon Red,https://archives.bulbagarden.net/media/upload/2/2a/044Gloom.png
+45,Vileplume,Grass,Pokémon Red,https://archives.bulbagarden.net/media/upload/6/6a/045Vileplume.png
+46,Paras,Bug,Pokémon Red,https://archives.bulbagarden.net/media/upload/d/d4/046Paras.png
+47,Parasect,Bug,Pokémon Red,https://archives.bulbagarden.net/media/upload/8/80/047Parasect.png
+48,Venonat,Bug,Pokémon Red,https://archives.bulbagarden.net/media/upload/a/ad/048Venonat.png
+49,Venomoth,Bug,Pokémon Red,https://archives.bulbagarden.net/media/upload/d/d3/049Venomoth.png
+50,Diglett,Ground,Pokémon Red,https://archives.bulbagarden.net/media/upload/3/31/050Diglett.png
+50,Alolan Diglett,Ground,Pokémon Sun,https://archives.bulbagarden.net/media/upload/1/10/050Diglett-Alola.png
+51,Dugtrio,Ground,Pokémon Red,https://archives.bulbagarden.net/media/upload/e/e5/051Dugtrio.png
+51,Alolan Dugtrio,Ground,Pokémon Sun,https://archives.bulbagarden.net/media/upload/2/22/051Dugtrio-Alola.png
+52,Meowth,Normal,Pokémon Red,https://archives.bulbagarden.net/media/upload/d/d6/052Meowth.png
+52,Alolan Meowth,Dark,Pokémon Sun,https://archives.bulbagarden.net/media/upload/e/e3/052Meowth-Alola.png
+52,Galarian Meowth,Steel,Pokémon Sword,https://archives.bulbagarden.net/media/upload/0/09/052Meowth-Galar.png
+53,Persian,Normal,Pokémon Red,https://archives.bulbagarden.net/media/upload/1/13/053Persian.png
+53,Alolan Persian,Dark,Pokémon Sun,https://archives.bulbagarden.net/media/upload/8/80/053Persian-Alola.png
+54,Psyduck,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/5/53/054Psyduck.png
+55,Golduck,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/f/fe/055Golduck.png
+56,Mankey,Fighting,Pokémon Red,https://archives.bulbagarden.net/media/upload/4/41/056Mankey.png
+57,Primeape,Fighting,Pokémon Red,https://archives.bulbagarden.net/media/upload/9/9a/057Primeape.png
+58,Growlithe,Fire,Pokémon Red,https://archives.bulbagarden.net/media/upload/3/3d/058Growlithe.png
+59,Arcanine,Fire,Pokémon Red,https://archives.bulbagarden.net/media/upload/b/b8/059Arcanine.png
+60,Poliwag,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/4/49/060Poliwag.png
+61,Poliwhirl,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/a/a9/061Poliwhirl.png
+62,Poliwrath,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/2/2d/062Poliwrath.png
+63,Abra,Psychic,Pokémon Red,https://archives.bulbagarden.net/media/upload/6/62/063Abra.png
+64,Kadabra,Psychic,Pokémon Red,https://archives.bulbagarden.net/media/upload/9/97/064Kadabra.png
+65,Alakazam,Psychic,Pokémon Red,https://archives.bulbagarden.net/media/upload/c/cc/065Alakazam.png
+65,Mega Alakazam,Psychic,Pokémon X,https://archives.bulbagarden.net/media/upload/3/34/065Alakazam-Mega.png
+66,Machop,Fighting,Pokémon Red,https://archives.bulbagarden.net/media/upload/8/85/066Machop.png
+67,Machoke,Fighting,Pokémon Red,https://archives.bulbagarden.net/media/upload/8/8e/067Machoke.png
+68,Machamp,Fighting,Pokémon Red,https://archives.bulbagarden.net/media/upload/8/8f/068Machamp.png
+69,Bellsprout,Grass,Pokémon Red,https://archives.bulbagarden.net/media/upload/a/a2/069Bellsprout.png
+70,Weepinbell,Grass,Pokémon Red,https://archives.bulbagarden.net/media/upload/9/9f/070Weepinbell.png
+71,Victreebel,Grass,Pokémon Red,https://archives.bulbagarden.net/media/upload/b/be/071Victreebel.png
+72,Tentacool,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/4/4e/072Tentacool.png
+73,Tentacruel,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/f/f6/073Tentacruel.png
+74,Geodude,Rock,Pokémon Red,https://archives.bulbagarden.net/media/upload/9/98/074Geodude.png
+74,Alolan Geodude,Rock,Pokémon Sun,https://archives.bulbagarden.net/media/upload/4/43/074Geodude-Alola.png
+75,Graveler,Rock,Pokémon Red,https://archives.bulbagarden.net/media/upload/7/75/075Graveler.png
+75,Alolan Graveler,Rock,Pokémon Sun,https://archives.bulbagarden.net/media/upload/6/62/075Graveler-Alola.png
+76,Golem,Rock,Pokémon Red,https://archives.bulbagarden.net/media/upload/f/f2/076Golem.png
+76,Alolan Golem,Rock,Pokémon Sun,https://archives.bulbagarden.net/media/upload/0/07/076Golem-Alola.png
+77,Ponyta,Fire,Pokémon Red,https://archives.bulbagarden.net/media/upload/3/3b/077Ponyta.png
+77,Galarian Ponyta,Psychic,Pokémon Sword,https://archives.bulbagarden.net/media/upload/9/92/077Ponyta-Galar.png
+78,Rapidash,Fire,Pokémon Red,https://archives.bulbagarden.net/media/upload/3/3f/078Rapidash.png
+78,Galarian Rapidash,Psychic,Pokémon Sword,https://archives.bulbagarden.net/media/upload/e/e0/078Rapidash-Galar.png
+79,Slowpoke,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/7/70/079Slowpoke.png
+79,Galarian Slowpoke,Psychic,Pokémon Sword,https://archives.bulbagarden.net/media/upload/9/9f/079Slowpoke-Galar.png
+80,Slowbro,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/8/80/080Slowbro.png
+80,Galarian Slowbro,Poison,Pokémon Sword,https://archives.bulbagarden.net/media/upload/8/8b/080Slowbro-Galar.png
+81,Magnemite,Electric,Pokémon Red,https://archives.bulbagarden.net/media/upload/6/6c/081Magnemite.png
+82,Magneton,Electric,Pokémon Red,https://archives.bulbagarden.net/media/upload/7/72/082Magneton.png
+83,Farfetch'd,Normal,Pokémon Red,https://archives.bulbagarden.net/media/upload/f/f8/083Farfetch%27d.png
+83,Galarian Farfetch'd,Fighting,Pokémon Sword,https://archives.bulbagarden.net/media/upload/7/7d/083Farfetch%27d-Galar.png
+84,Doduo,Normal,Pokémon Red,https://archives.bulbagarden.net/media/upload/5/54/084Doduo.png
+85,Dodrio,Normal,Pokémon Red,https://archives.bulbagarden.net/media/upload/9/93/085Dodrio.png
+86,Seel,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/1/1f/086Seel.png
+87,Dewgong,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/c/c7/087Dewgong.png
+88,Grimer,Poison,Pokémon Red,https://archives.bulbagarden.net/media/upload/a/a0/088Grimer.png
+88,Alolan Grimer,Poison,Pokémon Sun,https://archives.bulbagarden.net/media/upload/e/e0/088Grimer-Alola.png
+89,Muk,Poison,Pokémon Red,https://archives.bulbagarden.net/media/upload/7/7c/089Muk.png
+89,Alolan Muk,Poison,Pokémon Sun,https://archives.bulbagarden.net/media/upload/1/15/089Muk-Alola.png
+90,Shellder,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/4/40/090Shellder.png
+91,Cloyster,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/1/1d/091Cloyster.png
+92,Gastly,Ghost,Pokémon Red,https://archives.bulbagarden.net/media/upload/c/ca/092Gastly.png
+93,Haunter,Ghost,Pokémon Red,https://archives.bulbagarden.net/media/upload/6/62/093Haunter.png
+94,Gengar,Ghost,Pokémon Red,https://archives.bulbagarden.net/media/upload/c/c6/094Gengar.png
+94,Mega Gengar,Ghost,Pokémon X,https://archives.bulbagarden.net/media/upload/8/80/094Gengar-Mega.png
+95,Onix,Rock,Pokémon Red,https://archives.bulbagarden.net/media/upload/9/9a/095Onix.png
+96,Drowzee,Psychic,Pokémon Red,https://archives.bulbagarden.net/media/upload/3/3e/096Drowzee.png
+97,Hypno,Psychic,Pokémon Red,https://archives.bulbagarden.net/media/upload/0/0a/097Hypno.png
+98,Krabby,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/a/a7/098Krabby.png
+99,Kingler,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/7/71/099Kingler.png
+100,Voltorb,Electric,Pokémon Red,https://archives.bulbagarden.net/media/upload/d/da/100Voltorb.png
+101,Electrode,Electric,Pokémon Red,https://archives.bulbagarden.net/media/upload/8/84/101Electrode.png
+102,Exeggcute,Grass,Pokémon Red,https://archives.bulbagarden.net/media/upload/a/af/102Exeggcute.png
+103,Exeggutor,Grass,Pokémon Red,https://archives.bulbagarden.net/media/upload/2/24/103Exeggutor.png
+103,Alolan Exeggutor,Grass,Pokémon Sun,https://archives.bulbagarden.net/media/upload/7/74/103Exeggutor-Alola.png
+104,Cubone,Ground,Pokémon Red,https://archives.bulbagarden.net/media/upload/2/2a/104Cubone.png
+105,Marowak,Ground,Pokémon Red,https://archives.bulbagarden.net/media/upload/9/98/105Marowak.png
+105,Alolan Marowak,Fire,Pokémon Sun,https://archives.bulbagarden.net/media/upload/0/06/105Marowak-Alola.png
+106,Hitmonlee,Fighting,Pokémon Red,https://archives.bulbagarden.net/media/upload/3/32/106Hitmonlee.png
+107,Hitmonchan,Fighting,Pokémon Red,https://archives.bulbagarden.net/media/upload/a/a3/107Hitmonchan.png
+108,Lickitung,Normal,Pokémon Red,https://archives.bulbagarden.net/media/upload/0/00/108Lickitung.png
+109,Koffing,Poison,Pokémon Red,https://archives.bulbagarden.net/media/upload/1/17/109Koffing.png
+110,Weezing,Poison,Pokémon Red,https://archives.bulbagarden.net/media/upload/4/42/110Weezing.png
+110,Galarian Weezing,Poison,Pokémon Sword,https://archives.bulbagarden.net/media/upload/3/38/110Weezing-Galar.png
+111,Rhyhorn,Ground,Pokémon Red,https://archives.bulbagarden.net/media/upload/9/9b/111Rhyhorn.png
+112,Rhydon,Ground,Pokémon Red,https://archives.bulbagarden.net/media/upload/4/47/112Rhydon.png
+113,Chansey,Normal,Pokémon Red,https://archives.bulbagarden.net/media/upload/c/cd/113Chansey.png
+114,Tangela,Grass,Pokémon Red,https://archives.bulbagarden.net/media/upload/3/3e/114Tangela.png
+115,Kangaskhan,Normal,Pokémon Red,https://archives.bulbagarden.net/media/upload/4/4e/115Kangaskhan.png
+115,Mega Kangaskhan,Normal,Pokémon X,https://archives.bulbagarden.net/media/upload/e/e3/115Kangaskhan-Mega.png
+116,Horsea,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/5/5a/116Horsea.png
+117,Seadra,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/2/26/117Seadra.png
+118,Goldeen,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/7/7b/118Goldeen.png
+119,Seaking,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/6/6a/119Seaking.png
+120,Staryu,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/4/4f/120Staryu.png
+121,Starmie,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/c/cd/121Starmie.png
+122,Mr. Mime,Psychic,Pokémon Red,https://archives.bulbagarden.net/media/upload/e/ec/122Mr._Mime.png
+122,Galarian Mr. Mime,Ice,Pokémon Sword,https://archives.bulbagarden.net/media/upload/d/d1/122Mr._Mime-Galar.png
+123,Scyther,Bug,Pokémon Red,https://archives.bulbagarden.net/media/upload/b/ba/123Scyther.png
+124,Jynx,Ice,Pokémon Red,https://archives.bulbagarden.net/media/upload/7/7c/124Jynx.png
+125,Electabuzz,Electric,Pokémon Red,https://archives.bulbagarden.net/media/upload/d/de/125Electabuzz.png
+126,Magmar,Fire,Pokémon Red,https://archives.bulbagarden.net/media/upload/8/8c/126Magmar.png
+127,Pinsir,Bug,Pokémon Red,https://archives.bulbagarden.net/media/upload/7/71/127Pinsir.png
+127,Mega Pinsir,Bug,Pokémon X,https://archives.bulbagarden.net/media/upload/7/74/127Pinsir-Mega.png
+128,Tauros,Normal,Pokémon Red,https://archives.bulbagarden.net/media/upload/b/b8/128Tauros.png
+129,Magikarp,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/0/02/129Magikarp.png
+130,Gyarados,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/4/41/130Gyarados.png
+130,Mega Gyarados,Water,Pokémon X,https://archives.bulbagarden.net/media/upload/3/30/130Gyarados-Mega.png
+131,Lapras,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/a/ab/131Lapras.png
+132,Ditto,Normal,Pokémon Red,https://archives.bulbagarden.net/media/upload/3/36/132Ditto.png
+133,Eevee,Normal,Pokémon Red,https://archives.bulbagarden.net/media/upload/e/e2/133Eevee.png
+134,Vaporeon,Water,Pokémon Red,https://archives.bulbagarden.net/media/upload/f/fd/134Vaporeon.png
+135,Jolteon,Electric,Pokémon Red,https://archives.bulbagarden.net/media/upload/b/bb/135Jolteon.png
+136,Flareon,Fire,Pokémon Red,https://archives.bulbagarden.net/media/upload/d/dd/136Flareon.png
+137,Porygon,Normal,Pokémon Red,https://archives.bulbagarden.net/media/upload/6/6b/137Porygon.png
+138,Omanyte,Rock,Pokémon Red,https://archives.bulbagarden.net/media/upload/7/79/138Omanyte.png
+139,Omastar,Rock,Pokémon Red,https://archives.bulbagarden.net/media/upload/4/43/139Omastar.png
+140,Kabuto,Rock,Pokémon Red,https://archives.bulbagarden.net/media/upload/f/f9/140Kabuto.png
+141,Kabutops,Rock,Pokémon Red,https://archives.bulbagarden.net/media/upload/2/29/141Kabutops.png
+142,Aerodactyl,Rock,Pokémon Red,https://archives.bulbagarden.net/media/upload/e/e8/142Aerodactyl.png
+142,Mega Aerodactyl,Rock,Pokémon X,https://archives.bulbagarden.net/media/upload/a/a5/142Aerodactyl-Mega.png
+143,Snorlax,Normal,Pokémon Red,https://archives.bulbagarden.net/media/upload/f/fb/143Snorlax.png
+144,Articuno,Ice,Pokémon Red,https://archives.bulbagarden.net/media/upload/4/4e/144Articuno.png
+144,Galarian Articuno,Psychic,Pokémon Sword,https://archives.bulbagarden.net/media/upload/d/df/144Articuno-Galar.png
+145,Zapdos,Electric,Pokémon Red,https://archives.bulbagarden.net/media/upload/e/e3/145Zapdos.png
+145,Galarian Zapdos,Fighting,Pokémon Sword,https://archives.bulbagarden.net/media/upload/1/13/145Zapdos-Galar.png
+146,Moltres,Fire,Pokémon Red,https://archives.bulbagarden.net/media/upload/1/1b/146Moltres.png
+146,Galarian Moltres,Dark,Pokémon Sword,https://archives.bulbagarden.net/media/upload/f/f7/146Moltres-Galar.png
+147,Dratini,Dragon,Pokémon Red,https://archives.bulbagarden.net/media/upload/c/cc/147Dratini.png
+148,Dragonair,Dragon,Pokémon Red,https://archives.bulbagarden.net/media/upload/9/93/148Dragonair.png
+149,Dragonite,Dragon,Pokémon Red,https://archives.bulbagarden.net/media/upload/8/8b/149Dragonite.png
+150,Mewtwo,Psychic,Pokémon Red,https://archives.bulbagarden.net/media/upload/7/78/150Mewtwo.png
+150,Mega Mewtwo Y,Psychic,Pokémon X,https://archives.bulbagarden.net/media/upload/5/5f/150Mewtwo-Mega_Y.png
+150,Mega Mewtwo X,Psychic,Pokémon X,https://archives.bulbagarden.net/media/upload/7/7f/150Mewtwo-Mega_X.png
+151,Mew,Psychic,Pokémon Red,https://archives.bulbagarden.net/media/upload/b/b1/151Mew.png
+152,Chikorita,Grass,Pokémon Gold,https://archives.bulbagarden.net/media/upload/b/bf/152Chikorita.png
+153,Bayleef,Grass,Pokémon Gold,https://archives.bulbagarden.net/media/upload/c/ca/153Bayleef.png
+154,Meganium,Grass,Pokémon Gold,https://archives.bulbagarden.net/media/upload/d/d1/154Meganium.png
+155,Cyndaquil,Fire,Pokémon Gold,https://archives.bulbagarden.net/media/upload/9/9b/155Cyndaquil.png
+156,Quilava,Fire,Pokémon Gold,https://archives.bulbagarden.net/media/upload/b/b6/156Quilava.png
+157,Typhlosion,Fire,Pokémon Gold,https://archives.bulbagarden.net/media/upload/4/47/157Typhlosion.png
+158,Totodile,Water,Pokémon Gold,https://archives.bulbagarden.net/media/upload/d/df/158Totodile.png
+159,Croconaw,Water,Pokémon Gold,https://archives.bulbagarden.net/media/upload/a/a5/159Croconaw.png
+160,Feraligatr,Water,Pokémon Gold,https://archives.bulbagarden.net/media/upload/d/d5/160Feraligatr.png
+161,Sentret,Normal,Pokémon Gold,https://archives.bulbagarden.net/media/upload/c/c5/161Sentret.png
+162,Furret,Normal,Pokémon Gold,https://archives.bulbagarden.net/media/upload/4/4b/162Furret.png
+163,Hoothoot,Normal,Pokémon Gold,https://archives.bulbagarden.net/media/upload/5/53/163Hoothoot.png
+164,Noctowl,Normal,Pokémon Gold,https://archives.bulbagarden.net/media/upload/f/fa/164Noctowl.png
+165,Ledyba,Bug,Pokémon Gold,https://archives.bulbagarden.net/media/upload/b/bb/165Ledyba.png
+166,Ledian,Bug,Pokémon Gold,https://archives.bulbagarden.net/media/upload/5/5b/166Ledian.png
+167,Spinarak,Bug,Pokémon Gold,https://archives.bulbagarden.net/media/upload/7/75/167Spinarak.png
+168,Ariados,Bug,Pokémon Gold,https://archives.bulbagarden.net/media/upload/7/76/168Ariados.png
+169,Crobat,Poison,Pokémon Gold,https://archives.bulbagarden.net/media/upload/1/17/169Crobat.png
+170,Chinchou,Water,Pokémon Gold,https://archives.bulbagarden.net/media/upload/d/d9/170Chinchou.png
+171,Lanturn,Water,Pokémon Gold,https://archives.bulbagarden.net/media/upload/9/9b/171Lanturn.png
+172,Pichu,Electric,Pokémon Gold,https://archives.bulbagarden.net/media/upload/b/b9/172Pichu.png
+173,Cleffa,Fairy,Pokémon Gold,https://archives.bulbagarden.net/media/upload/e/e4/173Cleffa.png
+174,Igglybuff,Normal,Pokémon Gold,https://archives.bulbagarden.net/media/upload/4/4d/174Igglybuff.png
+175,Togepi,Fairy,Pokémon Gold,https://archives.bulbagarden.net/media/upload/6/6b/175Togepi.png
+176,Togetic,Fairy,Pokémon Gold,https://archives.bulbagarden.net/media/upload/1/11/176Togetic.png
+177,Natu,Psychic,Pokémon Gold,https://archives.bulbagarden.net/media/upload/5/5b/177Natu.png
+178,Xatu,Psychic,Pokémon Gold,https://archives.bulbagarden.net/media/upload/f/f4/178Xatu.png
+179,Mareep,Electric,Pokémon Gold,https://archives.bulbagarden.net/media/upload/6/6b/179Mareep.png
+180,Flaaffy,Electric,Pokémon Gold,https://archives.bulbagarden.net/media/upload/6/6f/180Flaaffy.png
+181,Ampharos,Electric,Pokémon Gold,https://archives.bulbagarden.net/media/upload/4/47/181Ampharos.png
+181,Mega Ampharos,Electric,Pokémon X,https://archives.bulbagarden.net/media/upload/a/a2/181Ampharos-Mega.png
+182,Bellossom,Grass,Pokémon Gold,https://archives.bulbagarden.net/media/upload/c/cd/182Bellossom.png
+183,Marill,Water,Pokémon Gold,https://archives.bulbagarden.net/media/upload/4/42/183Marill.png
+184,Azumarill,Water,Pokémon Gold,https://archives.bulbagarden.net/media/upload/a/a5/184Azumarill.png
+185,Sudowoodo,Rock,Pokémon Gold,https://archives.bulbagarden.net/media/upload/1/1e/185Sudowoodo.png
+186,Politoed,Water,Pokémon Gold,https://archives.bulbagarden.net/media/upload/a/a4/186Politoed.png
+187,Hoppip,Grass,Pokémon Gold,https://archives.bulbagarden.net/media/upload/f/f8/187Hoppip.png
+188,Skiploom,Grass,Pokémon Gold,https://archives.bulbagarden.net/media/upload/4/4f/188Skiploom.png
+189,Jumpluff,Grass,Pokémon Gold,https://archives.bulbagarden.net/media/upload/5/5e/189Jumpluff.png
+190,Aipom,Normal,Pokémon Gold,https://archives.bulbagarden.net/media/upload/4/42/190Aipom.png
+191,Sunkern,Grass,Pokémon Gold,https://archives.bulbagarden.net/media/upload/9/95/191Sunkern.png
+192,Sunflora,Grass,Pokémon Gold,https://archives.bulbagarden.net/media/upload/9/98/192Sunflora.png
+193,Yanma,Bug,Pokémon Gold,https://archives.bulbagarden.net/media/upload/d/dd/193Yanma.png
+194,Wooper,Water,Pokémon Gold,https://archives.bulbagarden.net/media/upload/7/78/194Wooper.png
+195,Quagsire,Water,Pokémon Gold,https://archives.bulbagarden.net/media/upload/a/a4/195Quagsire.png
+196,Espeon,Psychic,Pokémon Gold,https://archives.bulbagarden.net/media/upload/a/a7/196Espeon.png
+197,Umbreon,Dark,Pokémon Gold,https://archives.bulbagarden.net/media/upload/3/3d/197Umbreon.png
+198,Murkrow,Dark,Pokémon Gold,https://archives.bulbagarden.net/media/upload/3/33/198Murkrow.png
+199,Slowking,Water,Pokémon Gold,https://archives.bulbagarden.net/media/upload/e/e1/199Slowking.png
+199,Galarian Slowking,Poison,Pokémon Sword,https://archives.bulbagarden.net/media/upload/c/ca/199Slowking-Galar.png
+200,Misdreavus,Ghost,Pokémon Gold,https://archives.bulbagarden.net/media/upload/b/be/200Misdreavus.png
+201,Unown,Psychic,Pokémon Gold,https://archives.bulbagarden.net/media/upload/7/77/201Unown.png
+202,Wobbuffet,Psychic,Pokémon Gold,https://archives.bulbagarden.net/media/upload/1/17/202Wobbuffet.png
+203,Girafarig,Normal,Pokémon Gold,https://archives.bulbagarden.net/media/upload/1/11/203Girafarig.png
+204,Pineco,Bug,Pokémon Gold,https://archives.bulbagarden.net/media/upload/0/0b/204Pineco.png
+205,Forretress,Bug,Pokémon Gold,https://archives.bulbagarden.net/media/upload/6/68/205Forretress.png
+206,Dunsparce,Normal,Pokémon Gold,https://archives.bulbagarden.net/media/upload/2/20/206Dunsparce.png
+207,Gligar,Ground,Pokémon Gold,https://archives.bulbagarden.net/media/upload/0/04/207Gligar.png
+208,Steelix,Steel,Pokémon Gold,https://archives.bulbagarden.net/media/upload/b/ba/208Steelix.png
+209,Snubbull,Fairy,Pokémon Gold,https://archives.bulbagarden.net/media/upload/7/7f/209Snubbull.png
+210,Granbull,Fairy,Pokémon Gold,https://archives.bulbagarden.net/media/upload/b/b1/210Granbull.png
+211,Qwilfish,Water,Pokémon Gold,https://archives.bulbagarden.net/media/upload/2/21/211Qwilfish.png
+212,Scizor,Bug,Pokémon Gold,https://archives.bulbagarden.net/media/upload/5/55/212Scizor.png
+212,Mega Scizor,Bug,Pokémon X,https://archives.bulbagarden.net/media/upload/8/80/212Scizor-Mega.png
+213,Shuckle,Bug,Pokémon Gold,https://archives.bulbagarden.net/media/upload/c/c7/213Shuckle.png
+214,Heracross,Bug,Pokémon Gold,https://archives.bulbagarden.net/media/upload/4/47/214Heracross.png
+214,Mega Heracross,Bug,Pokémon X,https://archives.bulbagarden.net/media/upload/d/da/214Heracross-Mega.png
+215,Sneasel,Dark,Pokémon Gold,https://archives.bulbagarden.net/media/upload/7/71/215Sneasel.png
+216,Teddiursa,Normal,Pokémon Gold,https://archives.bulbagarden.net/media/upload/e/e9/216Teddiursa.png
+217,Ursaring,Normal,Pokémon Gold,https://archives.bulbagarden.net/media/upload/e/e9/217Ursaring.png
+218,Slugma,Fire,Pokémon Gold,https://archives.bulbagarden.net/media/upload/6/68/218Slugma.png
+219,Magcargo,Fire,Pokémon Gold,https://archives.bulbagarden.net/media/upload/6/65/219Magcargo.png
+220,Swinub,Ice,Pokémon Gold,https://archives.bulbagarden.net/media/upload/b/b5/220Swinub.png
+221,Piloswine,Ice,Pokémon Gold,https://archives.bulbagarden.net/media/upload/4/49/221Piloswine.png
+222,Corsola,Water,Pokémon Gold,https://archives.bulbagarden.net/media/upload/f/fc/222Corsola.png
+222,Galarian Corsola,Ghost,Pokémon Sword,https://archives.bulbagarden.net/media/upload/c/ce/222Corsola-Galar.png
+223,Remoraid,Water,Pokémon Gold,https://archives.bulbagarden.net/media/upload/9/95/223Remoraid.png
+224,Octillery,Water,Pokémon Gold,https://archives.bulbagarden.net/media/upload/c/cb/224Octillery.png
+225,Delibird,Ice,Pokémon Gold,https://archives.bulbagarden.net/media/upload/3/3f/225Delibird.png
+226,Mantine,Water,Pokémon Gold,https://archives.bulbagarden.net/media/upload/c/c5/226Mantine.png
+227,Skarmory,Steel,Pokémon Gold,https://archives.bulbagarden.net/media/upload/3/35/227Skarmory.png
+228,Houndour,Dark,Pokémon Gold,https://archives.bulbagarden.net/media/upload/5/53/228Houndour.png
+229,Houndoom,Dark,Pokémon Gold,https://archives.bulbagarden.net/media/upload/5/51/229Houndoom.png
+229,Mega Houndoom,Dark,Pokémon X,https://archives.bulbagarden.net/media/upload/3/39/229Houndoom-Mega.png
+230,Kingdra,Water,Pokémon Gold,https://archives.bulbagarden.net/media/upload/3/3c/230Kingdra.png
+231,Phanpy,Ground,Pokémon Gold,https://archives.bulbagarden.net/media/upload/d/d3/231Phanpy.png
+232,Donphan,Ground,Pokémon Gold,https://archives.bulbagarden.net/media/upload/5/53/232Donphan.png
+233,Porygon2,Normal,Pokémon Gold,https://archives.bulbagarden.net/media/upload/9/99/233Porygon2.png
+234,Stantler,Normal,Pokémon Gold,https://archives.bulbagarden.net/media/upload/5/50/234Stantler.png
+235,Smeargle,Normal,Pokémon Gold,https://archives.bulbagarden.net/media/upload/9/92/235Smeargle.png
+236,Tyrogue,Fighting,Pokémon Gold,https://archives.bulbagarden.net/media/upload/c/c7/236Tyrogue.png
+237,Hitmontop,Fighting,Pokémon Gold,https://archives.bulbagarden.net/media/upload/9/94/237Hitmontop.png
+238,Smoochum,Ice,Pokémon Gold,https://archives.bulbagarden.net/media/upload/0/0e/238Smoochum.png
+239,Elekid,Electric,Pokémon Gold,https://archives.bulbagarden.net/media/upload/5/5d/239Elekid.png
+240,Magby,Fire,Pokémon Gold,https://archives.bulbagarden.net/media/upload/c/cb/240Magby.png
+241,Miltank,Normal,Pokémon Gold,https://archives.bulbagarden.net/media/upload/1/13/241Miltank.png
+242,Blissey,Normal,Pokémon Gold,https://archives.bulbagarden.net/media/upload/5/56/242Blissey.png
+243,Raikou,Electric,Pokémon Gold,https://archives.bulbagarden.net/media/upload/c/c1/243Raikou.png
+244,Entei,Fire,Pokémon Gold,https://archives.bulbagarden.net/media/upload/f/f9/244Entei.png
+245,Suicune,Water,Pokémon Gold,https://archives.bulbagarden.net/media/upload/d/da/245Suicune.png
+246,Larvitar,Rock,Pokémon Gold,https://archives.bulbagarden.net/media/upload/7/70/246Larvitar.png
+247,Pupitar,Rock,Pokémon Gold,https://archives.bulbagarden.net/media/upload/a/a1/247Pupitar.png
+248,Tyranitar,Rock,Pokémon Gold,https://archives.bulbagarden.net/media/upload/8/82/248Tyranitar.png
+248,Mega Tyranitar,Rock,Pokémon X,https://archives.bulbagarden.net/media/upload/0/0d/248Tyranitar-Mega.png
+249,Lugia,Psychic,Pokémon Gold,https://archives.bulbagarden.net/media/upload/4/44/249Lugia.png
+250,Ho-Oh,Fire,Pokémon Gold,https://archives.bulbagarden.net/media/upload/6/67/250Ho-Oh.png
+251,Celebi,Psychic,Pokémon Gold,https://archives.bulbagarden.net/media/upload/e/e7/251Celebi.png
+252,Treecko,Grass,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/2/2c/252Treecko.png
+253,Grovyle,Grass,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/e/ea/253Grovyle.png
+254,Sceptile,Grass,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/3/3e/254Sceptile.png
+255,Torchic,Fire,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/9/91/255Torchic.png
+256,Combusken,Fire,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/2/29/256Combusken.png
+257,Blaziken,Fire,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/9/90/257Blaziken.png
+257,Mega Blaziken,Fire,Pokémon X,https://archives.bulbagarden.net/media/upload/f/fa/257Blaziken-Mega.png
+258,Mudkip,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/6/60/258Mudkip.png
+259,Marshtomp,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/2/27/259Marshtomp.png
+260,Swampert,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/b/b6/260Swampert.png
+261,Poochyena,Dark,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/f/fc/261Poochyena.png
+262,Mightyena,Dark,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/f/f1/262Mightyena.png
+263,Zigzagoon,Normal,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/4/47/263Zigzagoon.png
+263,Galarian Zigzagoon,Dark,Pokémon Sword,https://archives.bulbagarden.net/media/upload/b/b0/263Zigzagoon-Galar.png
+264,Linoone,Normal,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/f/f7/264Linoone.png
+264,Galarian Linoone,Dark,Pokémon Sword,https://archives.bulbagarden.net/media/upload/8/8e/264Linoone-Galar.png
+265,Wurmple,Bug,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/7/76/265Wurmple.png
+266,Silcoon,Bug,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/e/ef/266Silcoon.png
+267,Beautifly,Bug,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/4/4c/267Beautifly.png
+268,Cascoon,Bug,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/a/a3/268Cascoon.png
+269,Dustox,Bug,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/3/34/269Dustox.png
+270,Lotad,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/e/ee/270Lotad.png
+271,Lombre,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/8/8b/271Lombre.png
+272,Ludicolo,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/f/ff/272Ludicolo.png
+273,Seedot,Grass,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/8/84/273Seedot.png
+274,Nuzleaf,Grass,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/0/07/274Nuzleaf.png
+275,Shiftry,Grass,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/f/f7/275Shiftry.png
+276,Taillow,Normal,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/e/e4/276Taillow.png
+277,Swellow,Normal,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/4/45/277Swellow.png
+278,Wingull,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/3/39/278Wingull.png
+279,Pelipper,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/f/f2/279Pelipper.png
+280,Ralts,Psychic,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/e/e1/280Ralts.png
+281,Kirlia,Psychic,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/0/00/281Kirlia.png
+282,Gardevoir,Psychic,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/9/99/282Gardevoir.png
+282,Mega Gardevoir,Psychic,Pokémon X,https://archives.bulbagarden.net/media/upload/2/20/282Gardevoir-Mega.png
+283,Surskit,Bug,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/f/f6/283Surskit.png
+284,Masquerain,Bug,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/0/0a/284Masquerain.png
+285,Shroomish,Grass,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/d/d8/285Shroomish.png
+286,Breloom,Grass,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/d/de/286Breloom.png
+287,Slakoth,Normal,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/d/d2/287Slakoth.png
+288,Vigoroth,Normal,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/6/61/288Vigoroth.png
+289,Slaking,Normal,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/7/71/289Slaking.png
+290,Nincada,Bug,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/9/90/290Nincada.png
+291,Ninjask,Bug,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/7/76/291Ninjask.png
+292,Shedinja,Bug,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/5/59/292Shedinja.png
+293,Whismur,Normal,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/6/6c/293Whismur.png
+294,Loudred,Normal,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/1/12/294Loudred.png
+295,Exploud,Normal,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/1/12/295Exploud.png
+296,Makuhita,Fighting,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/b/b6/296Makuhita.png
+297,Hariyama,Fighting,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/6/6f/297Hariyama.png
+298,Azurill,Normal,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/a/ac/298Azurill.png
+299,Nosepass,Rock,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/8/89/299Nosepass.png
+300,Skitty,Normal,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/8/8a/300Skitty.png
+301,Delcatty,Normal,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/f/f4/301Delcatty.png
+302,Sableye,Dark,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/d/d3/302Sableye.png
+303,Mawile,Steel,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/c/c0/303Mawile.png
+303,Mega Mawile,Steel,Pokémon X,https://archives.bulbagarden.net/media/upload/8/86/303Mawile-Mega.png
+304,Aron,Steel,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/b/bb/304Aron.png
+305,Lairon,Steel,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/b/bf/305Lairon.png
+306,Aggron,Steel,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/6/6d/306Aggron.png
+306,Mega Aggron,Steel,Pokémon X,https://archives.bulbagarden.net/media/upload/1/10/306Aggron-Mega.png
+307,Meditite,Fighting,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/7/71/307Meditite.png
+308,Medicham,Fighting,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/0/05/308Medicham.png
+308,Mega Medicham,Fighting,Pokémon X,https://archives.bulbagarden.net/media/upload/c/cd/308Medicham-Mega.png
+309,Electrike,Electric,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/4/47/309Electrike.png
+310,Manectric,Electric,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/b/bb/310Manectric.png
+310,Mega Manectric,Electric,Pokémon X,https://archives.bulbagarden.net/media/upload/b/bc/310Manectric-Mega.png
+311,Plusle,Electric,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/a/a3/311Plusle.png
+312,Minun,Electric,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/e/e7/312Minun.png
+313,Volbeat,Bug,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/d/d6/313Volbeat.png
+314,Illumise,Bug,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/5/55/314Illumise.png
+315,Roselia,Grass,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/f/f1/315Roselia.png
+316,Gulpin,Poison,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/f/f0/316Gulpin.png
+317,Swalot,Poison,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/a/ad/317Swalot.png
+318,Carvanha,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/9/98/318Carvanha.png
+319,Sharpedo,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/a/a8/319Sharpedo.png
+320,Wailmer,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/7/71/320Wailmer.png
+321,Wailord,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/b/b9/321Wailord.png
+322,Numel,Fire,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/c/c6/322Numel.png
+323,Camerupt,Fire,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/7/7d/323Camerupt.png
+324,Torkoal,Fire,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/3/3b/324Torkoal.png
+325,Spoink,Psychic,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/9/9e/325Spoink.png
+326,Grumpig,Psychic,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/5/54/326Grumpig.png
+327,Spinda,Normal,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/8/8f/327Spinda.png
+328,Trapinch,Ground,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/7/76/328Trapinch.png
+329,Vibrava,Ground,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/a/af/329Vibrava.png
+330,Flygon,Ground,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/f/f1/330Flygon.png
+331,Cacnea,Grass,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/1/12/331Cacnea.png
+332,Cacturne,Grass,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/4/41/332Cacturne.png
+333,Swablu,Normal,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/9/99/333Swablu.png
+334,Altaria,Dragon,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/d/da/334Altaria.png
+335,Zangoose,Normal,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/d/d3/335Zangoose.png
+336,Seviper,Poison,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/d/d6/336Seviper.png
+337,Lunatone,Rock,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/e/eb/337Lunatone.png
+338,Solrock,Rock,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/9/90/338Solrock.png
+339,Barboach,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/6/60/339Barboach.png
+340,Whiscash,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/6/60/340Whiscash.png
+341,Corphish,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/3/3d/341Corphish.png
+342,Crawdaunt,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/f/f4/342Crawdaunt.png
+343,Baltoy,Ground,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/8/8b/343Baltoy.png
+344,Claydol,Ground,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/0/07/344Claydol.png
+345,Lileep,Rock,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/3/34/345Lileep.png
+346,Cradily,Rock,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/3/38/346Cradily.png
+347,Anorith,Rock,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/4/45/347Anorith.png
+348,Armaldo,Rock,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/1/1d/348Armaldo.png
+349,Feebas,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/4/4b/349Feebas.png
+350,Milotic,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/3/36/350Milotic.png
+351,Castform,Normal,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/f/f3/351Castform.png
+352,Kecleon,Normal,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/5/50/352Kecleon.png
+353,Shuppet,Ghost,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/4/4b/353Shuppet.png
+354,Banette,Ghost,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/0/0a/354Banette.png
+354,Mega Banette,Ghost,Pokémon X,https://archives.bulbagarden.net/media/upload/a/a3/354Banette-Mega.png
+355,Duskull,Ghost,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/e/e2/355Duskull.png
+356,Dusclops,Ghost,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/1/12/356Dusclops.png
+357,Tropius,Grass,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/d/dd/357Tropius.png
+358,Chimecho,Psychic,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/e/e5/358Chimecho.png
+359,Absol,Dark,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/0/00/359Absol.png
+359,Mega Absol,Dark,Pokémon X,https://archives.bulbagarden.net/media/upload/f/f4/359Absol-Mega.png
+360,Wynaut,Psychic,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/d/d0/360Wynaut.png
+361,Snorunt,Ice,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/6/6b/361Snorunt.png
+362,Glalie,Ice,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/6/62/362Glalie.png
+363,Spheal,Ice,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/9/9f/363Spheal.png
+364,Sealeo,Ice,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/f/f6/364Sealeo.png
+365,Walrein,Ice,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/6/61/365Walrein.png
+366,Clamperl,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/1/11/366Clamperl.png
+367,Huntail,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/1/11/367Huntail.png
+368,Gorebyss,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/3/37/368Gorebyss.png
+369,Relicanth,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/7/78/369Relicanth.png
+370,Luvdisc,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/1/1d/370Luvdisc.png
+371,Bagon,Dragon,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/d/d2/371Bagon.png
+372,Shelgon,Dragon,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/a/a5/372Shelgon.png
+373,Salamence,Dragon,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/4/41/373Salamence.png
+374,Beldum,Steel,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/d/d4/374Beldum.png
+375,Metang,Steel,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/6/62/375Metang.png
+376,Metagross,Steel,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/0/05/376Metagross.png
+377,Regirock,Rock,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/a/aa/377Regirock.png
+378,Regice,Ice,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/f/fe/378Regice.png
+379,Registeel,Steel,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/2/22/379Registeel.png
+380,Latias,Dragon,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/2/24/380Latias.png
+381,Latios,Dragon,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/5/52/381Latios.png
+382,Kyogre,Water,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/4/41/382Kyogre.png
+383,Groudon,Ground,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/7/70/383Groudon.png
+384,Rayquaza,Dragon,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/e/e4/384Rayquaza.png
+385,Jirachi,Steel,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/8/85/385Jirachi.png
+386,Deoxys Normal Form,Psychic,Pokémon Ruby,https://archives.bulbagarden.net/media/upload/e/e7/386Deoxys.png
+387,Turtwig,Grass,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/5/5c/387Turtwig.png
+388,Grotle,Grass,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/5/53/388Grotle.png
+389,Torterra,Grass,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/d/df/389Torterra.png
+390,Chimchar,Fire,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/7/76/390Chimchar.png
+391,Monferno,Fire,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/2/2e/391Monferno.png
+392,Infernape,Fire,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/f/fb/392Infernape.png
+393,Piplup,Water,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/b/b1/393Piplup.png
+394,Prinplup,Water,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/d/df/394Prinplup.png
+395,Empoleon,Water,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/7/7f/395Empoleon.png
+396,Starly,Normal,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/a/af/396Starly.png
+397,Staravia,Normal,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/f/f8/397Staravia.png
+398,Staraptor,Normal,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/5/5e/398Staraptor.png
+399,Bidoof,Normal,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/f/f5/399Bidoof.png
+400,Bibarel,Normal,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/9/91/400Bibarel.png
+401,Kricketot,Bug,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/3/33/401Kricketot.png
+402,Kricketune,Bug,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/e/e5/402Kricketune.png
+403,Shinx,Electric,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/3/32/403Shinx.png
+404,Luxio,Electric,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/4/49/404Luxio.png
+405,Luxray,Electric,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/a/a7/405Luxray.png
+406,Budew,Grass,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/d/d3/406Budew.png
+407,Roserade,Grass,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/0/05/407Roserade.png
+408,Cranidos,Rock,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/c/cd/408Cranidos.png
+409,Rampardos,Rock,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/8/8a/409Rampardos.png
+410,Shieldon,Rock,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/e/e2/410Shieldon.png
+411,Bastiodon,Rock,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/b/bc/411Bastiodon.png
+412,Burmy,Bug,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/c/c9/412Burmy-Plant.png
+412,Wormadam Plant Cloak,Bug,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/d/db/413Wormadam-Plant.png
+412,Wormadam Sandy Cloak,Bug,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/1/1c/413Wormadam-Sandy.png
+412,Wormadam Trash Cloak,Bug,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/0/0b/413Wormadam-Trash.png
+414,Mothim,Bug,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/1/18/414Mothim.png
+415,Combee,Bug,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/b/b6/415Combee.png
+416,Vespiquen,Bug,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/2/2c/416Vespiquen.png
+417,Pachirisu,Electric,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/f/f4/417Pachirisu.png
+418,Buizel,Water,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/8/83/418Buizel.png
+419,Floatzel,Water,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/b/bf/419Floatzel.png
+420,Cherubi,Grass,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/a/a7/420Cherubi.png
+421,Cherrim,Grass,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/2/25/421Cherrim-Overcast.png
+422,Shellos,Water,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/7/72/422Shellos.png
+423,Gastrodon,Water,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/1/18/423Gastrodon.png
+424,Ambipom,Normal,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/8/86/424Ambipom.png
+425,Drifloon,Ghost,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/e/eb/425Drifloon.png
+426,Drifblim,Ghost,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/7/71/426Drifblim.png
+427,Buneary,Normal,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/a/a7/427Buneary.png
+428,Lopunny,Normal,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/c/c9/428Lopunny.png
+429,Mismagius,Ghost,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/b/b4/429Mismagius.png
+430,Honchkrow,Dark,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/4/46/430Honchkrow.png
+431,Glameow,Normal,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/2/26/431Glameow.png
+432,Purugly,Normal,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/8/80/432Purugly.png
+433,Chingling,Psychic,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/e/ed/433Chingling.png
+434,Stunky,Poison,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/7/75/434Stunky.png
+435,Skuntank,Poison,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/b/bc/435Skuntank.png
+436,Bronzor,Steel,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/c/c1/436Bronzor.png
+437,Bronzong,Steel,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/a/aa/437Bronzong.png
+438,Bonsly,Rock,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/e/e2/438Bonsly.png
+439,Mime Jr.,Psychic,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/3/37/439Mime_Jr.png
+440,Happiny,Normal,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/2/27/440Happiny.png
+441,Chatot,Normal,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/b/bf/441Chatot.png
+442,Spiritomb,Ghost,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/8/8e/442Spiritomb.png
+443,Gible,Dragon,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/6/68/443Gible.png
+444,Gabite,Dragon,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/9/9d/444Gabite.png
+445,Garchomp,Dragon,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/f/fa/445Garchomp.png
+445,Mega Garchomp,Dragon,Pokémon X,https://archives.bulbagarden.net/media/upload/b/b2/445Garchomp-Mega.png
+446,Munchlax,Normal,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/b/b2/446Munchlax.png
+447,Riolu,Fighting,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/a/a2/447Riolu.png
+448,Lucario,Fighting,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/d/d7/448Lucario.png
+448,Mega Lucario,Fighting,Pokémon X,https://archives.bulbagarden.net/media/upload/b/b9/448Lucario-Mega.png
+449,Hippopotas,Ground,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/a/ab/449Hippopotas.png
+450,Hippowdon,Ground,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/5/5f/450Hippowdon.png
+451,Skorupi,Poison,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/4/47/451Skorupi.png
+452,Drapion,Poison,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/1/13/452Drapion.png
+453,Croagunk,Poison,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/f/fa/453Croagunk.png
+454,Toxicroak,Poison,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/8/8b/454Toxicroak.png
+455,Carnivine,Grass,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/d/df/455Carnivine.png
+456,Finneon,Water,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/4/45/456Finneon.png
+457,Lumineon,Water,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/f/f0/457Lumineon.png
+458,Mantyke,Water,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/b/bc/458Mantyke.png
+459,Snover,Grass,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/d/d2/459Snover.png
+460,Abomasnow,Grass,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/3/3b/460Abomasnow.png
+460,Mega Abomasnow,Grass,Pokémon X,https://archives.bulbagarden.net/media/upload/d/dc/460Abomasnow-Mega.png
+461,Weavile,Dark,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/d/d2/461Weavile.png
+462,Magnezone,Electric,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/5/53/462Magnezone.png
+463,Lickilicky,Normal,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/8/8e/463Lickilicky.png
+464,Rhyperior,Ground,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/d/d9/464Rhyperior.png
+465,Tangrowth,Grass,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/3/32/465Tangrowth.png
+466,Electivire,Electric,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/2/23/466Electivire.png
+467,Magmortar,Fire,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/6/60/467Magmortar.png
+468,Togekiss,Fairy,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/8/87/468Togekiss.png
+469,Yanmega,Bug,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/e/e6/469Yanmega.png
+470,Leafeon,Grass,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/f/f5/470Leafeon.png
+471,Glaceon,Ice,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/2/23/471Glaceon.png
+472,Gliscor,Ground,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/a/ac/472Gliscor.png
+473,Mamoswine,Ice,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/d/d0/473Mamoswine.png
+474,Porygon-Z,Normal,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/2/24/474Porygon-Z.png
+475,Gallade,Psychic,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/5/58/475Gallade.png
+476,Probopass,Rock,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/a/a6/476Probopass.png
+477,Dusknoir,Ghost,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/4/4f/477Dusknoir.png
+478,Froslass,Ice,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/a/a2/478Froslass.png
+479,Rotom,Electric,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/c/c5/479Rotom.png
+480,Uxie,Psychic,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/e/ef/480Uxie.png
+481,Mesprit,Psychic,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/4/40/481Mesprit.png
+482,Azelf,Psychic,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/d/d0/482Azelf.png
+483,Dialga,Steel,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/8/8a/483Dialga.png
+484,Palkia,Water,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/6/66/484Palkia.png
+485,Heatran,Fire,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/b/b7/485Heatran.png
+486,Regigigas,Normal,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/a/a1/486Regigigas.png
+487,Giratina Altered Form,Ghost,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/0/0b/487Giratina.png
+488,Cresselia,Psychic,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/4/4a/488Cresselia.png
+489,Phione,Water,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/7/72/489Phione.png
+490,Manaphy,Water,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/2/2e/490Manaphy.png
+491,Darkrai,Dark,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/6/6d/491Darkrai.png
+492,Shaymin Land Form,Grass,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/6/61/492Shaymin.png
+493,Arceus,Normal,Pokémon Diamond,https://archives.bulbagarden.net/media/upload/f/fc/493Arceus.png
+494,Victini,Psychic,Pokémon Black,https://archives.bulbagarden.net/media/upload/6/60/494Victini.png
+495,Snivy,Grass,Pokémon Black,https://archives.bulbagarden.net/media/upload/7/75/495Snivy.png
+496,Servine,Grass,Pokémon Black,https://archives.bulbagarden.net/media/upload/7/73/496Servine.png
+497,Serperior,Grass,Pokémon Black,https://archives.bulbagarden.net/media/upload/b/b7/497Serperior.png
+498,Tepig,Fire,Pokémon Black,https://archives.bulbagarden.net/media/upload/5/5b/498Tepig.png
+499,Pignite,Fire,Pokémon Black,https://archives.bulbagarden.net/media/upload/e/e8/499Pignite.png
+500,Emboar,Fire,Pokémon Black,https://archives.bulbagarden.net/media/upload/1/18/500Emboar.png
+501,Oshawott,Water,Pokémon Black,https://archives.bulbagarden.net/media/upload/3/3b/501Oshawott.png
+502,Dewott,Water,Pokémon Black,https://archives.bulbagarden.net/media/upload/e/e4/502Dewott.png
+503,Samurott,Water,Pokémon Black,https://archives.bulbagarden.net/media/upload/b/b5/503Samurott.png
+504,Patrat,Normal,Pokémon Black,https://archives.bulbagarden.net/media/upload/c/cb/504Patrat.png
+505,Watchog,Normal,Pokémon Black,https://archives.bulbagarden.net/media/upload/3/3e/505Watchog.png
+506,Lillipup,Normal,Pokémon Black,https://archives.bulbagarden.net/media/upload/7/7e/506Lillipup.png
+507,Herdier,Normal,Pokémon Black,https://archives.bulbagarden.net/media/upload/9/96/507Herdier.png
+508,Stoutland,Normal,Pokémon Black,https://archives.bulbagarden.net/media/upload/3/3e/508Stoutland.png
+509,Purrloin,Dark,Pokémon Black,https://archives.bulbagarden.net/media/upload/4/46/509Purrloin.png
+510,Liepard,Dark,Pokémon Black,https://archives.bulbagarden.net/media/upload/0/09/510Liepard.png
+511,Pansage,Grass,Pokémon Black,https://archives.bulbagarden.net/media/upload/6/6b/511Pansage.png
+512,Simisage,Grass,Pokémon Black,https://archives.bulbagarden.net/media/upload/2/24/512Simisage.png
+513,Pansear,Fire,Pokémon Black,https://archives.bulbagarden.net/media/upload/e/e1/513Pansear.png
+514,Simisear,Fire,Pokémon Black,https://archives.bulbagarden.net/media/upload/7/7c/514Simisear.png
+515,Panpour,Water,Pokémon Black,https://archives.bulbagarden.net/media/upload/2/2f/515Panpour.png
+516,Simipour,Water,Pokémon Black,https://archives.bulbagarden.net/media/upload/8/83/516Simipour.png
+517,Munna,Psychic,Pokémon Black,https://archives.bulbagarden.net/media/upload/6/61/517Munna.png
+518,Musharna,Psychic,Pokémon Black,https://archives.bulbagarden.net/media/upload/2/2d/518Musharna.png
+519,Pidove,Normal,Pokémon Black,https://archives.bulbagarden.net/media/upload/c/c3/519Pidove.png
+520,Tranquill,Normal,Pokémon Black,https://archives.bulbagarden.net/media/upload/a/a3/520Tranquill.png
+521,Unfezant,Normal,Pokémon Black,https://archives.bulbagarden.net/media/upload/d/d0/521Unfezant.png
+522,Blitzle,Electric,Pokémon Black,https://archives.bulbagarden.net/media/upload/a/af/522Blitzle.png
+523,Zebstrika,Electric,Pokémon Black,https://archives.bulbagarden.net/media/upload/a/a1/523Zebstrika.png
+524,Roggenrola,Rock,Pokémon Black,https://archives.bulbagarden.net/media/upload/6/69/524Roggenrola.png
+525,Boldore,Rock,Pokémon Black,https://archives.bulbagarden.net/media/upload/c/ce/525Boldore.png
+526,Gigalith,Rock,Pokémon Black,https://archives.bulbagarden.net/media/upload/5/59/526Gigalith.png
+527,Woobat,Psychic,Pokémon Black,https://archives.bulbagarden.net/media/upload/3/36/527Woobat.png
+528,Swoobat,Psychic,Pokémon Black,https://archives.bulbagarden.net/media/upload/9/9d/528Swoobat.png
+529,Drilbur,Ground,Pokémon Black,https://archives.bulbagarden.net/media/upload/c/cf/529Drilbur.png
+530,Excadrill,Ground,Pokémon Black,https://archives.bulbagarden.net/media/upload/6/63/530Excadrill.png
+531,Audino,Normal,Pokémon Black,https://archives.bulbagarden.net/media/upload/f/f5/531Audino.png
+532,Timburr,Fighting,Pokémon Black,https://archives.bulbagarden.net/media/upload/6/69/532Timburr.png
+533,Gurdurr,Fighting,Pokémon Black,https://archives.bulbagarden.net/media/upload/a/ad/533Gurdurr.png
+534,Conkeldurr,Fighting,Pokémon Black,https://archives.bulbagarden.net/media/upload/1/11/534Conkeldurr.png
+535,Tympole,Water,Pokémon Black,https://archives.bulbagarden.net/media/upload/c/c9/535Tympole.png
+536,Palpitoad,Water,Pokémon Black,https://archives.bulbagarden.net/media/upload/c/c9/536Palpitoad.png
+537,Seismitoad,Water,Pokémon Black,https://archives.bulbagarden.net/media/upload/3/35/537Seismitoad.png
+538,Throh,Fighting,Pokémon Black,https://archives.bulbagarden.net/media/upload/7/74/538Throh.png
+539,Sawk,Fighting,Pokémon Black,https://archives.bulbagarden.net/media/upload/a/a8/539Sawk.png
+540,Sewaddle,Bug,Pokémon Black,https://archives.bulbagarden.net/media/upload/4/4a/540Sewaddle.png
+541,Swadloon,Bug,Pokémon Black,https://archives.bulbagarden.net/media/upload/2/2b/541Swadloon.png
+542,Leavanny,Bug,Pokémon Black,https://archives.bulbagarden.net/media/upload/8/8e/542Leavanny.png
+543,Venipede,Bug,Pokémon Black,https://archives.bulbagarden.net/media/upload/0/0e/543Venipede.png
+544,Whirlipede,Bug,Pokémon Black,https://archives.bulbagarden.net/media/upload/b/bc/544Whirlipede.png
+545,Scolipede,Bug,Pokémon Black,https://archives.bulbagarden.net/media/upload/c/cb/545Scolipede.png
+546,Cottonee,Grass,Pokémon Black,https://archives.bulbagarden.net/media/upload/4/44/546Cottonee.png
+547,Whimsicott,Grass,Pokémon Black,https://archives.bulbagarden.net/media/upload/a/a2/547Whimsicott.png
+548,Petilil,Grass,Pokémon Black,https://archives.bulbagarden.net/media/upload/0/0b/548Petilil.png
+549,Lilligant,Grass,Pokémon Black,https://archives.bulbagarden.net/media/upload/2/21/549Lilligant.png
+550,Basculin,Water,Pokémon Black,https://archives.bulbagarden.net/media/upload/2/24/550Basculin-Red.png
+551,Sandile,Ground,Pokémon Black,https://archives.bulbagarden.net/media/upload/2/26/551Sandile.png
+552,Krokorok,Ground,Pokémon Black,https://archives.bulbagarden.net/media/upload/d/d4/552Krokorok.png
+553,Krookodile,Ground,Pokémon Black,https://archives.bulbagarden.net/media/upload/e/e5/553Krookodile.png
+554,Darumaka,Fire,Pokémon Black,https://archives.bulbagarden.net/media/upload/4/4c/554Darumaka.png
+554,Galarian Darumaka,Ice,Pokémon Sword,https://archives.bulbagarden.net/media/upload/c/c9/554Darumaka-Galar.png
+555,Darmanitan Standard Mode,Fire,Pokémon Black,https://archives.bulbagarden.net/media/upload/4/40/555Darmanitan.png
+555,Darmanitan Zen Mode,Fire,Pokémon Black,https://archives.bulbagarden.net/media/upload/f/fe/555Darmanitan-Zen.png
+555,Galarian Darmanitan Standard Mode,Ice,Pokémon Sword,https://archives.bulbagarden.net/media/upload/6/60/555Darmanitan-Galar.png
+555,Galarian Darmanitan Zen Mode,Ice,Pokémon Sword,https://archives.bulbagarden.net/media/upload/3/39/HOME555GZ.png
+556,Maractus,Grass,Pokémon Black,https://archives.bulbagarden.net/media/upload/3/35/556Maractus.png
+557,Dwebble,Bug,Pokémon Black,https://archives.bulbagarden.net/media/upload/6/6b/557Dwebble.png
+558,Crustle,Bug,Pokémon Black,https://archives.bulbagarden.net/media/upload/1/19/558Crustle.png
+559,Scraggy,Dark,Pokémon Black,https://archives.bulbagarden.net/media/upload/d/dc/559Scraggy.png
+560,Scrafty,Dark,Pokémon Black,https://archives.bulbagarden.net/media/upload/e/e8/560Scrafty.png
+561,Sigilyph,Psychic,Pokémon Black,https://archives.bulbagarden.net/media/upload/6/67/561Sigilyph.png
+562,Yamask,Ghost,Pokémon Black,https://archives.bulbagarden.net/media/upload/a/a4/562Yamask.png
+562,Galarian Yamask,Ground,Pokémon Sword,https://archives.bulbagarden.net/media/upload/4/46/562Yamask-Galar.png
+563,Cofagrigus,Ghost,Pokémon Black,https://archives.bulbagarden.net/media/upload/f/f8/563Cofagrigus.png
+564,Tirtouga,Water,Pokémon Black,https://archives.bulbagarden.net/media/upload/1/1a/564Tirtouga.png
+565,Carracosta,Water,Pokémon Black,https://archives.bulbagarden.net/media/upload/d/d0/565Carracosta.png
+566,Archen,Rock,Pokémon Black,https://archives.bulbagarden.net/media/upload/a/a3/566Archen.png
+567,Archeops,Rock,Pokémon Black,https://archives.bulbagarden.net/media/upload/1/14/567Archeops.png
+568,Trubbish,Poison,Pokémon Black,https://archives.bulbagarden.net/media/upload/e/e2/568Trubbish.png
+569,Garbodor,Poison,Pokémon Black,https://archives.bulbagarden.net/media/upload/c/c4/569Garbodor.png
+570,Zorua,Dark,Pokémon Black,https://archives.bulbagarden.net/media/upload/2/2b/570Zorua.png
+571,Zoroark,Dark,Pokémon Black,https://archives.bulbagarden.net/media/upload/a/a6/571Zoroark.png
+572,Minccino,Normal,Pokémon Black,https://archives.bulbagarden.net/media/upload/e/ec/572Minccino.png
+573,Cinccino,Normal,Pokémon Black,https://archives.bulbagarden.net/media/upload/9/94/573Cinccino.png
+574,Gothita,Psychic,Pokémon Black,https://archives.bulbagarden.net/media/upload/7/71/574Gothita.png
+575,Gothorita,Psychic,Pokémon Black,https://archives.bulbagarden.net/media/upload/6/67/575Gothorita.png
+576,Gothitelle,Psychic,Pokémon Black,https://archives.bulbagarden.net/media/upload/3/38/576Gothitelle.png
+577,Solosis,Psychic,Pokémon Black,https://archives.bulbagarden.net/media/upload/1/1e/577Solosis.png
+578,Duosion,Psychic,Pokémon Black,https://archives.bulbagarden.net/media/upload/8/83/578Duosion.png
+579,Reuniclus,Psychic,Pokémon Black,https://archives.bulbagarden.net/media/upload/1/19/579Reuniclus.png
+580,Ducklett,Water,Pokémon Black,https://archives.bulbagarden.net/media/upload/4/4b/580Ducklett.png
+581,Swanna,Water,Pokémon Black,https://archives.bulbagarden.net/media/upload/7/76/581Swanna.png
+582,Vanillite,Ice,Pokémon Black,https://archives.bulbagarden.net/media/upload/3/3f/582Vanillite.png
+583,Vanillish,Ice,Pokémon Black,https://archives.bulbagarden.net/media/upload/2/2f/583Vanillish.png
+584,Vanilluxe,Ice,Pokémon Black,https://archives.bulbagarden.net/media/upload/3/39/584Vanilluxe.png
+585,Deerling,Normal,Pokémon Black,https://archives.bulbagarden.net/media/upload/6/68/585Deerling-Spring.png
+586,Sawsbuck,Normal,Pokémon Black,https://archives.bulbagarden.net/media/upload/8/8d/586Sawsbuck-Spring.png
+587,Emolga,Electric,Pokémon Black,https://archives.bulbagarden.net/media/upload/b/b4/587Emolga.png
+588,Karrablast,Bug,Pokémon Black,https://archives.bulbagarden.net/media/upload/6/60/588Karrablast.png
+589,Escavalier,Bug,Pokémon Black,https://archives.bulbagarden.net/media/upload/6/63/589Escavalier.png
+590,Foongus,Grass,Pokémon Black,https://archives.bulbagarden.net/media/upload/c/cc/590Foongus.png
+591,Amoonguss,Grass,Pokémon Black,https://archives.bulbagarden.net/media/upload/1/13/591Amoonguss.png
+592,Frillish,Water,Pokémon Black,https://archives.bulbagarden.net/media/upload/8/88/592Frillish.png
+593,Jellicent,Water,Pokémon Black,https://archives.bulbagarden.net/media/upload/5/5c/593Jellicent.png
+594,Alomomola,Water,Pokémon Black,https://archives.bulbagarden.net/media/upload/1/10/594Alomomola.png
+595,Joltik,Bug,Pokémon Black,https://archives.bulbagarden.net/media/upload/f/f8/595Joltik.png
+596,Galvantula,Bug,Pokémon Black,https://archives.bulbagarden.net/media/upload/7/7a/596Galvantula.png
+597,Ferroseed,Grass,Pokémon Black,https://archives.bulbagarden.net/media/upload/2/28/597Ferroseed.png
+598,Ferrothorn,Grass,Pokémon Black,https://archives.bulbagarden.net/media/upload/6/6c/598Ferrothorn.png
+599,Klink,Steel,Pokémon Black,https://archives.bulbagarden.net/media/upload/e/ea/599Klink.png
+600,Klang,Steel,Pokémon Black,https://archives.bulbagarden.net/media/upload/8/80/600Klang.png
+601,Klinklang,Steel,Pokémon Black,https://archives.bulbagarden.net/media/upload/c/cf/601Klinklang.png
+602,Tynamo,Electric,Pokémon Black,https://archives.bulbagarden.net/media/upload/5/5e/602Tynamo.png
+603,Eelektrik,Electric,Pokémon Black,https://archives.bulbagarden.net/media/upload/c/c7/603Eelektrik.png
+604,Eelektross,Electric,Pokémon Black,https://archives.bulbagarden.net/media/upload/6/6c/604Eelektross.png
+605,Elgyem,Psychic,Pokémon Black,https://archives.bulbagarden.net/media/upload/f/fd/605Elgyem.png
+606,Beheeyem,Psychic,Pokémon Black,https://archives.bulbagarden.net/media/upload/2/2c/606Beheeyem.png
+607,Litwick,Ghost,Pokémon Black,https://archives.bulbagarden.net/media/upload/8/8e/607Litwick.png
+608,Lampent,Ghost,Pokémon Black,https://archives.bulbagarden.net/media/upload/a/a5/608Lampent.png
+609,Chandelure,Ghost,Pokémon Black,https://archives.bulbagarden.net/media/upload/6/65/609Chandelure.png
+610,Axew,Dragon,Pokémon Black,https://archives.bulbagarden.net/media/upload/5/5c/610Axew.png
+611,Fraxure,Dragon,Pokémon Black,https://archives.bulbagarden.net/media/upload/0/05/611Fraxure.png
+612,Haxorus,Dragon,Pokémon Black,https://archives.bulbagarden.net/media/upload/8/8f/612Haxorus.png
+613,Cubchoo,Ice,Pokémon Black,https://archives.bulbagarden.net/media/upload/7/72/613Cubchoo.png
+614,Beartic,Ice,Pokémon Black,https://archives.bulbagarden.net/media/upload/4/40/614Beartic.png
+615,Cryogonal,Ice,Pokémon Black,https://archives.bulbagarden.net/media/upload/1/11/615Cryogonal.png
+616,Shelmet,Bug,Pokémon Black,https://archives.bulbagarden.net/media/upload/f/f6/616Shelmet.png
+617,Accelgor,Bug,Pokémon Black,https://archives.bulbagarden.net/media/upload/3/34/617Accelgor.png
+618,Stunfisk,Ground,Pokémon Black,https://archives.bulbagarden.net/media/upload/d/d2/618Stunfisk.png
+618,Galarian Stunfisk,Ground,Pokémon Sword,https://archives.bulbagarden.net/media/upload/1/11/618Stunfisk-Galar.png
+619,Mienfoo,Fighting,Pokémon Black,https://archives.bulbagarden.net/media/upload/4/41/619Mienfoo.png
+620,Mienshao,Fighting,Pokémon Black,https://archives.bulbagarden.net/media/upload/2/20/620Mienshao.png
+621,Druddigon,Dragon,Pokémon Black,https://archives.bulbagarden.net/media/upload/a/ad/621Druddigon.png
+622,Golett,Ground,Pokémon Black,https://archives.bulbagarden.net/media/upload/a/ac/622Golett.png
+623,Golurk,Ground,Pokémon Black,https://archives.bulbagarden.net/media/upload/6/68/623Golurk.png
+624,Pawniard,Dark,Pokémon Black,https://archives.bulbagarden.net/media/upload/9/9c/624Pawniard.png
+625,Bisharp,Dark,Pokémon Black,https://archives.bulbagarden.net/media/upload/7/74/625Bisharp.png
+626,Bouffalant,Normal,Pokémon Black,https://archives.bulbagarden.net/media/upload/a/a4/626Bouffalant.png
+627,Rufflet,Normal,Pokémon Black,https://archives.bulbagarden.net/media/upload/b/bb/627Rufflet.png
+628,Braviary,Normal,Pokémon Black,https://archives.bulbagarden.net/media/upload/c/cf/628Braviary.png
+629,Vullaby,Dark,Pokémon Black,https://archives.bulbagarden.net/media/upload/f/f2/629Vullaby.png
+630,Mandibuzz,Dark,Pokémon Black,https://archives.bulbagarden.net/media/upload/0/00/630Mandibuzz.png
+631,Heatmor,Fire,Pokémon Black,https://archives.bulbagarden.net/media/upload/b/b0/631Heatmor.png
+632,Durant,Bug,Pokémon Black,https://archives.bulbagarden.net/media/upload/1/1a/632Durant.png
+633,Deino,Dark,Pokémon Black,https://archives.bulbagarden.net/media/upload/f/f7/633Deino.png
+634,Zweilous,Dark,Pokémon Black,https://archives.bulbagarden.net/media/upload/a/a6/634Zweilous.png
+635,Hydreigon,Dark,Pokémon Black,https://archives.bulbagarden.net/media/upload/3/3e/635Hydreigon.png
+636,Larvesta,Bug,Pokémon Black,https://archives.bulbagarden.net/media/upload/f/f4/636Larvesta.png
+637,Volcarona,Bug,Pokémon Black,https://archives.bulbagarden.net/media/upload/6/6b/637Volcarona.png
+638,Cobalion,Steel,Pokémon Black,https://archives.bulbagarden.net/media/upload/6/65/638Cobalion.png
+639,Terrakion,Rock,Pokémon Black,https://archives.bulbagarden.net/media/upload/a/ad/639Terrakion.png
+640,Virizion,Grass,Pokémon Black,https://archives.bulbagarden.net/media/upload/7/79/640Virizion.png
+641,Tornadus Incarnate Form,Flying,Pokémon Black,https://archives.bulbagarden.net/media/upload/0/08/641Tornadus.png
+642,Thundurus Incarnate Form,Electric,Pokémon Black,https://archives.bulbagarden.net/media/upload/b/b8/642Thundurus.png
+643,Reshiram,Dragon,Pokémon Black,https://archives.bulbagarden.net/media/upload/8/8d/643Reshiram.png
+644,Zekrom,Dragon,Pokémon Black,https://archives.bulbagarden.net/media/upload/8/81/644Zekrom.png
+645,Landorus Incarnate Form,Ground,Pokémon Black,https://archives.bulbagarden.net/media/upload/b/bb/645Landorus.png
+646,Kyurem,Dragon,Pokémon Black,https://archives.bulbagarden.net/media/upload/c/c3/646Kyurem.png
+647,Keldeo,Water,Pokémon Black,https://archives.bulbagarden.net/media/upload/5/50/647Keldeo.png
+648,Meloetta Aria Form,Normal,Pokémon Black,https://archives.bulbagarden.net/media/upload/a/a3/648Meloetta.png
+648,Meloetta Pirouette Form,Normal,Pokémon Black,https://archives.bulbagarden.net/media/upload/3/36/648Meloetta-Pirouette.png
+649,Genesect,Bug,Pokémon Black,https://archives.bulbagarden.net/media/upload/4/46/649Genesect.png
+650,Chespin,Grass,Pokémon X,https://archives.bulbagarden.net/media/upload/c/ca/650Chespin.png
+651,Quilladin,Grass,Pokémon X,https://archives.bulbagarden.net/media/upload/7/71/651Quilladin.png
+652,Chesnaught,Grass,Pokémon X,https://archives.bulbagarden.net/media/upload/1/18/652Chesnaught.png
+653,Fennekin,Fire,Pokémon X,https://archives.bulbagarden.net/media/upload/3/3d/653Fennekin.png
+654,Braixen,Fire,Pokémon X,https://archives.bulbagarden.net/media/upload/0/09/654Braixen.png
+655,Delphox,Fire,Pokémon X,https://archives.bulbagarden.net/media/upload/2/21/655Delphox.png
+656,Froakie,Water,Pokémon X,https://archives.bulbagarden.net/media/upload/1/18/656Froakie.png
+657,Frogadier,Water,Pokémon X,https://archives.bulbagarden.net/media/upload/f/fc/657Frogadier.png
+658,Greninja,Water,Pokémon X,https://archives.bulbagarden.net/media/upload/6/67/658Greninja.png
+658,Ash-Greninja,Water,Pokémon Sun,https://archives.bulbagarden.net/media/upload/0/0e/658Greninja-Ash.png
+659,Bunnelby,Normal,Pokémon X,https://archives.bulbagarden.net/media/upload/7/70/659Bunnelby.png
+660,Diggersby,Normal,Pokémon X,https://archives.bulbagarden.net/media/upload/3/34/660Diggersby.png
+661,Fletchling,Normal,Pokémon X,https://archives.bulbagarden.net/media/upload/7/7e/661Fletchling.png
+662,Fletchinder,Fire,Pokémon X,https://archives.bulbagarden.net/media/upload/c/ce/662Fletchinder.png
+663,Talonflame,Fire,Pokémon X,https://archives.bulbagarden.net/media/upload/a/ae/663Talonflame.png
+664,Scatterbug,Bug,Pokémon X,https://archives.bulbagarden.net/media/upload/d/d3/664Scatterbug.png
+665,Spewpa,Bug,Pokémon X,https://archives.bulbagarden.net/media/upload/b/b7/665Spewpa.png
+666,Vivillon,Bug,Pokémon X,https://archives.bulbagarden.net/media/upload/4/4c/666Vivillon.png
+667,Litleo,Fire,Pokémon X,https://archives.bulbagarden.net/media/upload/1/1f/667Litleo.png
+668,Pyroar,Fire,Pokémon X,https://archives.bulbagarden.net/media/upload/7/70/668Pyroar.png
+669,Flab‚b‚,Fairy,Pokémon X,https://archives.bulbagarden.net/media/upload/5/52/669Flab%C3%A9b%C3%A9.png
+670,Floette,Fairy,Pokémon X,https://archives.bulbagarden.net/media/upload/1/17/670Floette.png
+671,Florges,Fairy,Pokémon X,https://archives.bulbagarden.net/media/upload/3/37/671Florges.png
+672,Skiddo,Grass,Pokémon X,https://archives.bulbagarden.net/media/upload/5/5d/672Skiddo.png
+673,Gogoat,Grass,Pokémon X,https://archives.bulbagarden.net/media/upload/b/bc/673Gogoat.png
+674,Pancham,Fighting,Pokémon X,https://archives.bulbagarden.net/media/upload/1/1c/674Pancham.png
+675,Pangoro,Fighting,Pokémon X,https://archives.bulbagarden.net/media/upload/0/08/675Pangoro.png
+676,Furfrou,Normal,Pokémon X,https://archives.bulbagarden.net/media/upload/4/49/676Furfrou.png
+677,Espurr,Psychic,Pokémon X,https://archives.bulbagarden.net/media/upload/0/09/677Espurr.png
+678,Meowstic,Psychic,Pokémon X,https://archives.bulbagarden.net/media/upload/a/a6/678Meowstic.png
+679,Honedge,Steel,Pokémon X,https://archives.bulbagarden.net/media/upload/3/35/679Honedge.png
+680,Doublade,Steel,Pokémon X,https://archives.bulbagarden.net/media/upload/e/ef/680Doublade.png
+680,Aegislash Shield Form,Steel,Pokémon X,https://archives.bulbagarden.net/media/upload/e/ec/681Aegislash-Shield.png
+680,Aegislash Blade Form,Steel,Pokémon X,https://archives.bulbagarden.net/media/upload/f/f9/681Aegislash-Blade.png
+682,Spritzee,Fairy,Pokémon X,https://archives.bulbagarden.net/media/upload/6/66/682Spritzee.png
+683,Aromatisse,Fairy,Pokémon X,https://archives.bulbagarden.net/media/upload/d/d9/683Aromatisse.png
+684,Swirlix,Fairy,Pokémon X,https://archives.bulbagarden.net/media/upload/b/bf/684Swirlix.png
+685,Slurpuff,Fairy,Pokémon X,https://archives.bulbagarden.net/media/upload/8/8d/685Slurpuff.png
+686,Inkay,Dark,Pokémon X,https://archives.bulbagarden.net/media/upload/7/70/686Inkay.png
+687,Malamar,Dark,Pokémon X,https://archives.bulbagarden.net/media/upload/e/e4/687Malamar.png
+688,Binacle,Rock,Pokémon X,https://archives.bulbagarden.net/media/upload/5/5b/688Binacle.png
+689,Barbaracle,Rock,Pokémon X,https://archives.bulbagarden.net/media/upload/4/48/689Barbaracle.png
+690,Skrelp,Poison,Pokémon X,https://archives.bulbagarden.net/media/upload/4/4e/690Skrelp.png
+691,Dragalge,Poison,Pokémon X,https://archives.bulbagarden.net/media/upload/a/a9/691Dragalge.png
+692,Clauncher,Water,Pokémon X,https://archives.bulbagarden.net/media/upload/f/fb/692Clauncher.png
+693,Clawitzer,Water,Pokémon X,https://archives.bulbagarden.net/media/upload/d/d3/693Clawitzer.png
+694,Helioptile,Electric,Pokémon X,https://archives.bulbagarden.net/media/upload/5/51/694Helioptile.png
+695,Heliolisk,Electric,Pokémon X,https://archives.bulbagarden.net/media/upload/f/f6/695Heliolisk.png
+696,Tyrunt,Rock,Pokémon X,https://archives.bulbagarden.net/media/upload/c/c3/696Tyrunt.png
+697,Tyrantrum,Rock,Pokémon X,https://archives.bulbagarden.net/media/upload/8/8b/697Tyrantrum.png
+698,Amaura,Rock,Pokémon X,https://archives.bulbagarden.net/media/upload/2/2a/698Amaura.png
+699,Aurorus,Rock,Pokémon X,https://archives.bulbagarden.net/media/upload/9/9e/699Aurorus.png
+700,Sylveon,Fairy,Pokémon X,https://archives.bulbagarden.net/media/upload/e/e8/700Sylveon.png
+701,Hawlucha,Fighting,Pokémon X,https://archives.bulbagarden.net/media/upload/4/44/701Hawlucha.png
+702,Dedenne,Electric,Pokémon X,https://archives.bulbagarden.net/media/upload/c/c9/702Dedenne.png
+703,Carbink,Rock,Pokémon X,https://archives.bulbagarden.net/media/upload/f/fa/703Carbink.png
+704,Goomy,Dragon,Pokémon X,https://archives.bulbagarden.net/media/upload/2/28/704Goomy.png
+705,Sliggoo,Dragon,Pokémon X,https://archives.bulbagarden.net/media/upload/9/95/705Sliggoo.png
+706,Goodra,Dragon,Pokémon X,https://archives.bulbagarden.net/media/upload/d/df/706Goodra.png
+707,Klefki,Steel,Pokémon X,https://archives.bulbagarden.net/media/upload/0/04/707Klefki.png
+708,Phantump,Ghost,Pokémon X,https://archives.bulbagarden.net/media/upload/7/72/708Phantump.png
+709,Trevenant,Ghost,Pokémon X,https://archives.bulbagarden.net/media/upload/4/4b/709Trevenant.png
+709,Pumpkaboo Small Size,Ghost,Pokémon X,https://archives.bulbagarden.net/media/upload/d/df/710Pumpkaboo.png
+709,Pumpkaboo Average Size,Ghost,Pokémon X,https://archives.bulbagarden.net/media/upload/d/df/710Pumpkaboo.png
+709,Pumpkaboo Large Size,Ghost,Pokémon X,https://archives.bulbagarden.net/media/upload/d/df/710Pumpkaboo.png
+709,Pumpkaboo Super Size,Ghost,Pokémon X,https://archives.bulbagarden.net/media/upload/d/df/710Pumpkaboo.png
+709,Gourgeist Small Size,Ghost,Pokémon X,https://archives.bulbagarden.net/media/upload/8/88/711Gourgeist.png
+709,Gourgeist Average Size,Ghost,Pokémon X,https://archives.bulbagarden.net/media/upload/8/88/711Gourgeist.png
+709,Gourgeist Large Size,Ghost,Pokémon X,https://archives.bulbagarden.net/media/upload/8/88/711Gourgeist.png
+709,Gourgeist Super Size,Ghost,Pokémon X,https://archives.bulbagarden.net/media/upload/8/88/711Gourgeist.png
+712,Bergmite,Ice,Pokémon X,https://archives.bulbagarden.net/media/upload/c/c3/712Bergmite.png
+713,Avalugg,Ice,Pokémon X,https://archives.bulbagarden.net/media/upload/0/04/713Avalugg.png
+714,Noibat,Flying,Pokémon X,https://archives.bulbagarden.net/media/upload/0/07/714Noibat.png
+715,Noivern,Flying,Pokémon X,https://archives.bulbagarden.net/media/upload/1/15/715Noivern.png
+716,Xerneas,Fairy,Pokémon X,https://archives.bulbagarden.net/media/upload/1/13/716Xerneas.png
+717,Yveltal,Dark,Pokémon X,https://archives.bulbagarden.net/media/upload/5/54/717Yveltal.png
+718,Zygarde 50% Form,Dragon,Pokémon X,https://archives.bulbagarden.net/media/upload/3/3a/718Zygarde.png
+718,Zygarde 10% Form,Dragon,Pokémon Sun,https://archives.bulbagarden.net/media/upload/9/94/718Zygarde-10Percent.png
+718,Zygarde Complete Form,Dragon,Pokémon Sun,https://archives.bulbagarden.net/media/upload/9/91/718Zygarde-Complete.png
+719,Diancie,Rock,Pokémon X,https://archives.bulbagarden.net/media/upload/b/b3/719Diancie.png
+720,Hoopa Confined,Psychic,Pokémon X,https://archives.bulbagarden.net/media/upload/f/fb/720Hoopa.png
+721,Volcanion,Fire,Pokémon X,https://archives.bulbagarden.net/media/upload/4/44/721Volcanion.png
+722,Rowlet,Grass,Pokémon Sun,https://archives.bulbagarden.net/media/upload/7/74/722Rowlet.png
+723,Dartrix,Grass,Pokémon Sun,https://archives.bulbagarden.net/media/upload/1/1e/723Dartrix.png
+724,Decidueye,Grass,Pokémon Sun,https://archives.bulbagarden.net/media/upload/a/a4/724Decidueye.png
+725,Litten,Fire,Pokémon Sun,https://archives.bulbagarden.net/media/upload/0/0e/725Litten.png
+726,Torracat,Fire,Pokémon Sun,https://archives.bulbagarden.net/media/upload/d/dc/726Torracat.png
+727,Incineroar,Fire,Pokémon Sun,https://archives.bulbagarden.net/media/upload/2/27/727Incineroar.png
+728,Popplio,Water,Pokémon Sun,https://archives.bulbagarden.net/media/upload/d/d8/728Popplio.png
+729,Brionne,Water,Pokémon Sun,https://archives.bulbagarden.net/media/upload/c/cd/729Brionne.png
+730,Primarina,Water,Pokémon Sun,https://archives.bulbagarden.net/media/upload/8/89/730Primarina.png
+731,Pikipek,Normal,Pokémon Sun,https://archives.bulbagarden.net/media/upload/1/15/731Pikipek.png
+732,Trumbeak,Normal,Pokémon Sun,https://archives.bulbagarden.net/media/upload/5/5c/732Trumbeak.png
+733,Toucannon,Normal,Pokémon Sun,https://archives.bulbagarden.net/media/upload/7/78/733Toucannon.png
+734,Yungoos,Normal,Pokémon Sun,https://archives.bulbagarden.net/media/upload/0/08/734Yungoos.png
+735,Gumshoos,Normal,Pokémon Sun,https://archives.bulbagarden.net/media/upload/b/ba/735Gumshoos.png
+736,Grubbin,Bug,Pokémon Sun,https://archives.bulbagarden.net/media/upload/1/14/736Grubbin.png
+737,Charjabug,Bug,Pokémon Sun,https://archives.bulbagarden.net/media/upload/e/ec/737Charjabug.png
+738,Vikavolt,Bug,Pokémon Sun,https://archives.bulbagarden.net/media/upload/4/4e/738Vikavolt.png
+739,Crabrawler,Fighting,Pokémon Sun,https://archives.bulbagarden.net/media/upload/9/98/739Crabrawler.png
+740,Crabominable,Fighting,Pokémon Sun,https://archives.bulbagarden.net/media/upload/1/17/740Crabominable.png
+740,Oricorio Baile Style,Fire,Pokémon Sun,https://archives.bulbagarden.net/media/upload/3/33/741Oricorio.png
+740,Oricorio Pom-Pom Style,Electric,Pokémon Sun,https://archives.bulbagarden.net/media/upload/6/6d/741Oricorio-Pom-Pom.png
+740,Oricorio Pa'u Style,Psychic,Pokémon Sun,https://archives.bulbagarden.net/media/upload/5/50/741Oricorio-Pa%27u.png
+740,Oricorio Sensu Style,Ghost,Pokémon Sun,https://archives.bulbagarden.net/media/upload/1/1c/741Oricorio-Sensu.png
+742,Cutiefly,Bug,Pokémon Sun,https://archives.bulbagarden.net/media/upload/f/fa/742Cutiefly.png
+743,Ribombee,Bug,Pokémon Sun,https://archives.bulbagarden.net/media/upload/e/e4/743Ribombee.png
+744,Rockruff,Rock,Pokémon Sun,https://archives.bulbagarden.net/media/upload/5/51/744Rockruff.png
+745,Lycanroc Midday Form,Rock,Pokémon Sun,https://archives.bulbagarden.net/media/upload/1/14/745Lycanroc.png
+746,Wishiwashi Solo Form,Water,Pokémon Sun,https://archives.bulbagarden.net/media/upload/7/75/746Wishiwashi.png
+746,Wishiwashi School Form,Water,Pokémon Sun,https://archives.bulbagarden.net/media/upload/7/7f/746Wishiwashi-School.png
+747,Mareanie,Poison,Pokémon Sun,https://archives.bulbagarden.net/media/upload/d/d3/747Mareanie.png
+748,Toxapex,Poison,Pokémon Sun,https://archives.bulbagarden.net/media/upload/0/06/748Toxapex.png
+749,Mudbray,Ground,Pokémon Sun,https://archives.bulbagarden.net/media/upload/1/12/749Mudbray.png
+750,Mudsdale,Ground,Pokémon Sun,https://archives.bulbagarden.net/media/upload/f/f7/750Mudsdale.png
+751,Dewpider,Water,Pokémon Sun,https://archives.bulbagarden.net/media/upload/2/29/751Dewpider.png
+752,Araquanid,Water,Pokémon Sun,https://archives.bulbagarden.net/media/upload/8/82/752Araquanid.png
+753,Fomantis,Grass,Pokémon Sun,https://archives.bulbagarden.net/media/upload/1/10/753Fomantis.png
+754,Lurantis,Grass,Pokémon Sun,https://archives.bulbagarden.net/media/upload/1/19/754Lurantis.png
+755,Morelull,Grass,Pokémon Sun,https://archives.bulbagarden.net/media/upload/c/c9/755Morelull.png
+756,Shiinotic,Grass,Pokémon Sun,https://archives.bulbagarden.net/media/upload/3/36/756Shiinotic.png
+757,Salandit,Poison,Pokémon Sun,https://archives.bulbagarden.net/media/upload/2/27/757Salandit.png
+758,Salazzle,Poison,Pokémon Sun,https://archives.bulbagarden.net/media/upload/7/72/758Salazzle.png
+759,Stufful,Normal,Pokémon Sun,https://archives.bulbagarden.net/media/upload/e/e5/759Stufful.png
+760,Bewear,Normal,Pokémon Sun,https://archives.bulbagarden.net/media/upload/a/a4/760Bewear.png
+761,Bounsweet,Grass,Pokémon Sun,https://archives.bulbagarden.net/media/upload/a/a1/761Bounsweet.png
+762,Steenee,Grass,Pokémon Sun,https://archives.bulbagarden.net/media/upload/7/78/762Steenee.png
+763,Tsareena,Grass,Pokémon Sun,https://archives.bulbagarden.net/media/upload/2/23/763Tsareena.png
+764,Comfey,Fairy,Pokémon Sun,https://archives.bulbagarden.net/media/upload/c/c9/764Comfey.png
+765,Oranguru,Normal,Pokémon Sun,https://archives.bulbagarden.net/media/upload/d/d8/765Oranguru.png
+766,Passimian,Fighting,Pokémon Sun,https://archives.bulbagarden.net/media/upload/b/ba/766Passimian.png
+767,Wimpod,Bug,Pokémon Sun,https://archives.bulbagarden.net/media/upload/e/ef/767Wimpod.png
+768,Golisopod,Bug,Pokémon Sun,https://archives.bulbagarden.net/media/upload/b/b6/768Golisopod.png
+769,Sandygast,Ghost,Pokémon Sun,https://archives.bulbagarden.net/media/upload/f/f0/769Sandygast.png
+770,Palossand,Ghost,Pokémon Sun,https://archives.bulbagarden.net/media/upload/3/32/770Palossand.png
+771,Pyukumuku,Water,Pokémon Sun,https://archives.bulbagarden.net/media/upload/4/4f/771Pyukumuku.png
+772,Type: Null,Normal,Pokémon Sun,https://archives.bulbagarden.net/media/upload/f/fd/772Type_Null.png
+773,Silvally,Normal,Pokémon Sun,https://archives.bulbagarden.net/media/upload/b/be/773Silvally.png
+773,Minior Meteor Form,Rock,Pokémon Sun,https://archives.bulbagarden.net/media/upload/9/90/774Minior.png
+773,Minior Core Form,Rock,Pokémon Sun,https://archives.bulbagarden.net/media/upload/2/20/774Minior-Core.png
+775,Komala,Normal,Pokémon Sun,https://archives.bulbagarden.net/media/upload/7/7d/775Komala.png
+776,Turtonator,Fire,Pokémon Sun,https://archives.bulbagarden.net/media/upload/1/15/776Turtonator.png
+777,Togedemaru,Electric,Pokémon Sun,https://archives.bulbagarden.net/media/upload/5/5a/777Togedemaru.png
+778,Mimikyu,Ghost,Pokémon Sun,https://archives.bulbagarden.net/media/upload/9/9b/778Mimikyu.png
+779,Bruxish,Water,Pokémon Sun,https://archives.bulbagarden.net/media/upload/9/92/779Bruxish.png
+780,Drampa,Normal,Pokémon Sun,https://archives.bulbagarden.net/media/upload/d/dc/780Drampa.png
+781,Dhelmise,Ghost,Pokémon Sun,https://archives.bulbagarden.net/media/upload/2/2f/781Dhelmise.png
+782,Jangmo-o,Dragon,Pokémon Sun,https://archives.bulbagarden.net/media/upload/a/a0/782Jangmo-o.png
+783,Hakamo-o,Dragon,Pokémon Sun,https://archives.bulbagarden.net/media/upload/0/0d/783Hakamo-o.png
+784,Kommo-o,Dragon,Pokémon Sun,https://archives.bulbagarden.net/media/upload/8/84/784Kommo-o.png
+785,Tapu Koko,Electric,Pokémon Sun,https://archives.bulbagarden.net/media/upload/d/d0/785Tapu_Koko.png
+786,Tapu Lele,Psychic,Pokémon Sun,https://archives.bulbagarden.net/media/upload/4/4d/786Tapu_Lele.png
+787,Tapu Bulu,Grass,Pokémon Sun,https://archives.bulbagarden.net/media/upload/6/67/787Tapu_Bulu.png
+788,Tapu Fini,Water,Pokémon Sun,https://archives.bulbagarden.net/media/upload/6/66/788Tapu_Fini.png
+789,Cosmog,Psychic,Pokémon Sun,https://archives.bulbagarden.net/media/upload/1/17/789Cosmog.png
+790,Cosmoem,Psychic,Pokémon Sun,https://archives.bulbagarden.net/media/upload/1/1b/790Cosmoem.png
+791,Solgaleo,Psychic,Pokémon Sun,https://archives.bulbagarden.net/media/upload/5/57/791Solgaleo.png
+792,Lunala,Psychic,Pokémon Sun,https://archives.bulbagarden.net/media/upload/9/9d/792Lunala.png
+793,Nihilego,Rock,Pokémon Sun,https://archives.bulbagarden.net/media/upload/2/2c/793Nihilego.png
+794,Buzzwole,Bug,Pokémon Sun,https://archives.bulbagarden.net/media/upload/f/fa/794Buzzwole.png
+795,Pheromosa,Bug,Pokémon Sun,https://archives.bulbagarden.net/media/upload/c/c7/795Pheromosa.png
+796,Xurkitree,Electric,Pokémon Sun,https://archives.bulbagarden.net/media/upload/d/d2/796Xurkitree.png
+797,Celesteela,Steel,Pokémon Sun,https://archives.bulbagarden.net/media/upload/8/89/797Celesteela.png
+798,Kartana,Grass,Pokémon Sun,https://archives.bulbagarden.net/media/upload/f/fe/798Kartana.png
+799,Guzzlord,Dark,Pokémon Sun,https://archives.bulbagarden.net/media/upload/4/47/799Guzzlord.png
+800,Necrozma,Psychic,Pokémon Sun,https://archives.bulbagarden.net/media/upload/4/44/800Necrozma.png
+801,Magearna,Steel,Pokémon Sun,https://archives.bulbagarden.net/media/upload/0/0a/801Magearna.png
+802,Marshadow,Fighting,Pokémon Sun,https://archives.bulbagarden.net/media/upload/8/89/802Marshadow.png
+803,Poipole,Poison,Pokémon Sun,https://archives.bulbagarden.net/media/upload/e/e5/803Poipole.png
+804,Naganadel,Poison,Pokémon Sun,https://archives.bulbagarden.net/media/upload/d/de/804Naganadel.png
+805,Stakataka,Rock,Pokémon Sun,https://archives.bulbagarden.net/media/upload/2/27/805Stakataka.png
+806,Blacephalon,Fire,Pokémon Sun,https://archives.bulbagarden.net/media/upload/a/a5/806Blacephalon.png
+807,Zeraora,Electric,Pokémon Sun,https://archives.bulbagarden.net/media/upload/a/a7/807Zeraora.png
+810,Grookey,Grass,Pokémon Sword,https://archives.bulbagarden.net/media/upload/9/93/810Grookey.png
+811,Thwackey,Grass,Pokémon Sword,https://archives.bulbagarden.net/media/upload/8/8f/811Thwackey.png
+812,Rillaboom,Grass,Pokémon Sword,https://archives.bulbagarden.net/media/upload/4/47/812Rillaboom.png
+813,Scorbunny,Fire,Pokémon Sword,https://archives.bulbagarden.net/media/upload/0/06/813Scorbunny.png
+814,Raboot,Fire,Pokémon Sword,https://archives.bulbagarden.net/media/upload/b/bc/814Raboot.png
+815,Cinderace,Fire,Pokémon Sword,https://archives.bulbagarden.net/media/upload/b/b0/815Cinderace.png
+816,Sobble,Water,Pokémon Sword,https://archives.bulbagarden.net/media/upload/9/9b/816Sobble.png
+817,Drizzile,Water,Pokémon Sword,https://archives.bulbagarden.net/media/upload/6/6c/817Drizzile.png
+818,Inteleon,Water,Pokémon Sword,https://archives.bulbagarden.net/media/upload/e/e4/818Inteleon.png
+819,Skwovet,Normal,Pokémon Sword,https://archives.bulbagarden.net/media/upload/c/ce/819Skwovet.png
+820,Greedent,Normal,Pokémon Sword,https://archives.bulbagarden.net/media/upload/6/6b/820Greedent.png
+821,Rookidee,Flying,Pokémon Sword,https://archives.bulbagarden.net/media/upload/7/79/821Rookidee.png
+822,Corvisquire,Flying,Pokémon Sword,https://archives.bulbagarden.net/media/upload/e/ec/822Corvisquire.png
+823,Corviknight,Flying,Pokémon Sword,https://archives.bulbagarden.net/media/upload/0/0c/823Corviknight.png
+824,Blipbug,Bug,Pokémon Sword,https://archives.bulbagarden.net/media/upload/4/4c/824Blipbug.png
+825,Dottler,Bug,Pokémon Sword,https://archives.bulbagarden.net/media/upload/9/95/825Dottler.png
+826,Orbeetle,Bug,Pokémon Sword,https://archives.bulbagarden.net/media/upload/7/79/826Orbeetle.png
+827,Nickit,Dark,Pokémon Sword,https://archives.bulbagarden.net/media/upload/2/22/827Nickit.png
+828,Thievul,Dark,Pokémon Sword,https://archives.bulbagarden.net/media/upload/e/e7/828Thievul.png
+829,Gossifleur,Grass,Pokémon Sword,https://archives.bulbagarden.net/media/upload/4/4c/829Gossifleur.png
+830,Eldegoss,Grass,Pokémon Sword,https://archives.bulbagarden.net/media/upload/3/34/830Eldegoss.png
+831,Wooloo,Normal,Pokémon Sword,https://archives.bulbagarden.net/media/upload/1/1f/831Wooloo.png
+832,Dubwool,Normal,Pokémon Sword,https://archives.bulbagarden.net/media/upload/9/9a/832Dubwool.png
+833,Chewtle,Water,Pokémon Sword,https://archives.bulbagarden.net/media/upload/2/22/833Chewtle.png
+834,Drednaw,Water,Pokémon Sword,https://archives.bulbagarden.net/media/upload/b/be/834Drednaw.png
+835,Yamper,Electric,Pokémon Sword,https://archives.bulbagarden.net/media/upload/6/63/835Yamper.png
+836,Boltund,Electric,Pokémon Sword,https://archives.bulbagarden.net/media/upload/e/e4/836Boltund.png
+837,Rolycoly,Rock,Pokémon Sword,https://archives.bulbagarden.net/media/upload/a/a1/837Rolycoly.png
+838,Carkol,Rock,Pokémon Sword,https://archives.bulbagarden.net/media/upload/e/e1/838Carkol.png
+839,Coalossal,Rock,Pokémon Sword,https://archives.bulbagarden.net/media/upload/0/0c/839Coalossal.png
+840,Applin,Grass,Pokémon Sword,https://archives.bulbagarden.net/media/upload/c/cc/840Applin.png
+841,Flapple,Grass,Pokémon Sword,https://archives.bulbagarden.net/media/upload/0/01/841Flapple.png
+842,Appletun,Grass,Pokémon Sword,https://archives.bulbagarden.net/media/upload/3/36/842Appletun.png
+843,Silicobra,Ground,Pokémon Sword,https://archives.bulbagarden.net/media/upload/b/b5/843Silicobra.png
+844,Sandaconda,Ground,Pokémon Sword,https://archives.bulbagarden.net/media/upload/1/11/844Sandaconda.png
+845,Cramorant,Flying,Pokémon Sword,https://archives.bulbagarden.net/media/upload/f/f3/845Cramorant.png
+846,Arrokuda,Water,Pokémon Sword,https://archives.bulbagarden.net/media/upload/a/a9/846Arrokuda.png
+847,Barraskewda,Water,Pokémon Sword,https://archives.bulbagarden.net/media/upload/d/d9/847Barraskewda.png
+848,Toxel,Electric,Pokémon Sword,https://archives.bulbagarden.net/media/upload/d/d5/848Toxel.png
+849,Toxtricity,Electric,Pokémon Sword,https://archives.bulbagarden.net/media/upload/5/56/849Toxtricity-Amped.png
+850,Sizzlipede,Fire,Pokémon Sword,https://archives.bulbagarden.net/media/upload/f/f2/850Sizzlipede.png
+851,Centiskorch,Fire,Pokémon Sword,https://archives.bulbagarden.net/media/upload/e/ed/851Centiskorch.png
+852,Clobbopus,Fighting,Pokémon Sword,https://archives.bulbagarden.net/media/upload/4/4e/852Clobbopus.png
+853,Grapploct,Fighting,Pokémon Sword,https://archives.bulbagarden.net/media/upload/c/c4/853Grapploct.png
+854,Sinistea,Ghost,Pokémon Sword,https://archives.bulbagarden.net/media/upload/b/b1/854Sinistea.png
+855,Polteageist,Ghost,Pokémon Sword,https://archives.bulbagarden.net/media/upload/3/3d/855Polteageist.png
+856,Hatenna,Psychic,Pokémon Sword,https://archives.bulbagarden.net/media/upload/8/8b/856Hatenna.png
+857,Hattrem,Psychic,Pokémon Sword,https://archives.bulbagarden.net/media/upload/1/19/857Hattrem.png
+858,Hatterene,Psychic,Pokémon Sword,https://archives.bulbagarden.net/media/upload/1/10/858Hatterene.png
+859,Impidimp,Dark,Pokémon Sword,https://archives.bulbagarden.net/media/upload/f/fb/859Impidimp.png
+860,Morgrem,Dark,Pokémon Sword,https://archives.bulbagarden.net/media/upload/6/66/860Morgrem.png
+861,Grimmsnarl,Dark,Pokémon Sword,https://archives.bulbagarden.net/media/upload/6/67/861Grimmsnarl.png
+862,Obstagoon,Dark,Pokémon Sword,https://archives.bulbagarden.net/media/upload/0/08/862Obstagoon.png
+863,Perrserker,Steel,Pokémon Sword,https://archives.bulbagarden.net/media/upload/e/e0/863Perrserker.png
+864,Cursola,Ghost,Pokémon Sword,https://archives.bulbagarden.net/media/upload/d/db/864Cursola.png
+865,Sirfetch'd,Fighting,Pokémon Sword,https://archives.bulbagarden.net/media/upload/3/38/865Sirfetch%27d.png
+866,Mr. Rime,Ice,Pokémon Sword,https://archives.bulbagarden.net/media/upload/5/51/866Mr._Rime.png
+867,Runerigus,Ground,Pokémon Sword,https://archives.bulbagarden.net/media/upload/7/71/867Runerigus.png
+868,Milcery,Fairy,Pokémon Sword,https://archives.bulbagarden.net/media/upload/0/05/868Milcery.png
+869,Alcremie,Fairy,Pokémon Sword,https://archives.bulbagarden.net/media/upload/e/e0/869Alcremie.png
+870,Falinks,Fighting,Pokémon Sword,https://archives.bulbagarden.net/media/upload/b/bb/870Falinks.png
+871,Pincurchin,Electric,Pokémon Sword,https://archives.bulbagarden.net/media/upload/1/11/871Pincurchin.png
+872,Snom,Ice,Pokémon Sword,https://archives.bulbagarden.net/media/upload/f/f9/872Snom.png
+873,Frosmoth,Ice,Pokémon Sword,https://archives.bulbagarden.net/media/upload/0/04/873Frosmoth.png
+874,Stonjourner,Rock,Pokémon Sword,https://archives.bulbagarden.net/media/upload/6/60/874Stonjourner.png
+875,Eiscue Ice Face,Ice,Pokémon Sword,https://archives.bulbagarden.net/media/upload/9/9b/875Eiscue-Ice.png
+875,Eiscue Noice Face,Ice,Pokémon Sword,https://archives.bulbagarden.net/media/upload/6/62/HOME875N.png
+876,Indeedee,Psychic,Pokémon Sword,https://archives.bulbagarden.net/media/upload/7/79/876Indeedee.png
+877,Morpeko,Electric,Pokémon Sword,https://archives.bulbagarden.net/media/upload/d/df/877Morpeko-Full.png
+878,Cufant,Steel,Pokémon Sword,https://archives.bulbagarden.net/media/upload/5/56/878Cufant.png
+879,Copperajah,Steel,Pokémon Sword,https://archives.bulbagarden.net/media/upload/7/76/879Copperajah.png
+880,Dracozolt,Electric,Pokémon Sword,https://archives.bulbagarden.net/media/upload/9/91/880Dracozolt.png
+881,Arctozolt,Electric,Pokémon Sword,https://archives.bulbagarden.net/media/upload/4/40/881Arctozolt.png
+882,Dracovish,Water,Pokémon Sword,https://archives.bulbagarden.net/media/upload/1/16/882Dracovish.png
+883,Arctovish,Water,Pokémon Sword,https://archives.bulbagarden.net/media/upload/0/03/883Arctovish.png
+884,Duraludon,Steel,Pokémon Sword,https://archives.bulbagarden.net/media/upload/3/38/884Duraludon.png
+885,Dreepy,Dragon,Pokémon Sword,https://archives.bulbagarden.net/media/upload/a/a9/885Dreepy.png
+886,Drakloak,Dragon,Pokémon Sword,https://archives.bulbagarden.net/media/upload/e/e1/886Drakloak.png
+887,Dragapult,Dragon,Pokémon Sword,https://archives.bulbagarden.net/media/upload/f/f7/887Dragapult.png
+888,Zacian Hero of Many Battles,Fairy,Pokémon Sword,https://archives.bulbagarden.net/media/upload/e/e3/888Zacian-Hero.png
+888,Zacian Crowned Sword,Fairy,Pokémon Sword,https://archives.bulbagarden.net/media/upload/c/ca/888Zacian.png
+889,Zamazenta Hero of Many Battles,Fighting,Pokémon Sword,https://archives.bulbagarden.net/media/upload/9/97/889Zamazenta-Hero.png
+889,Zamazenta Crowned Shield,Fighting,Pokémon Sword,https://archives.bulbagarden.net/media/upload/7/72/889Zamazenta.png
+890,Eternatus,Poison,Pokémon Sword,https://archives.bulbagarden.net/media/upload/6/62/890Eternatus.png
+891,Kubfu,Fighting,Pokémon Sword,https://archives.bulbagarden.net/media/upload/4/47/891Kubfu.png
+891,Urshifu Rapid Strike Style,Fighting,Pokémon Sword,https://archives.bulbagarden.net/media/upload/3/38/892Urshifu-Rapid_Strike.png
+891,Urshifu Single Strike Style,Fighting,Pokémon Sword,https://archives.bulbagarden.net/media/upload/e/e7/892Urshifu-Single_Strike.png
+893,Zarude,Dark,Pokémon Sword,https://archives.bulbagarden.net/media/upload/a/a5/893Zarude.png
+894,Regieleki,Electric,Pokémon Sword,https://archives.bulbagarden.net/media/upload/9/9b/894Regieleki.png
+895,Regidrago,Dragon,Pokémon Sword,https://archives.bulbagarden.net/media/upload/e/e8/895Regidrago.png
+896,Glastrier,Ice,Pokémon Sword,https://archives.bulbagarden.net/media/upload/f/ff/896Glastrier.png
+897,Spectrier,Ghost,Pokémon Sword,https://archives.bulbagarden.net/media/upload/7/7e/897Spectrier.png
+898,Calyrex,Psychic,Pokémon Sword,https://archives.bulbagarden.net/media/upload/3/3c/898Calyrex.png
+898,Calyrex Ice Rider,Psychic,Pokémon Sword,https://archives.bulbagarden.net/media/upload/e/e5/898Calyrex-Ice_Rider.png
+898,Calyrex Shadow Rider,Psychic,Pokémon Sword,https://archives.bulbagarden.net/media/upload/5/55/898Calyrex-Shadow_Rider.png
